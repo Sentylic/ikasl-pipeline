@@ -60,9 +60,10 @@ if __name__ == '__main__':
     pipeline.add(TweetBinStep(
         {'tweet-frequency': 'daily', 'tweet-format': 'json'}))
     pipeline.add(FeatureExtractStep(
-        {'jar-path': '../jars/TextFeatureExtractor.jar', 'tweet-frequency': 'daily', 'in-place': 'False', 'query-params': '["facebook", "delete", "fb", "deletefacebook"]'}))
+        {'jar-path': '../jars/TextFeatureExtractor.jar', 'tweet-frequency': 'daily', 'in-place': 'False', 'query-params': ["facebook", "delete", "fb", "deletefacebook"]}))
     pipeline.add(IKASLStep(
-        {'jar-path': '../jars/IKASL.jar', 'in-place': 'False', 'additional-args': {'htf': 0.0025}}))
+        {'jar-path': '../jars/IKASL.jar', 'in-place': 'False', 'tweet-frequency': 'daily', 'additional-args': {'htf': 0.0025}}))
+    pipeline.add(LayerProcessStep({'tweet-frequency': 'daily'}))
     pipeline.run('../data/1')
     # pipeline.run(
-    #     '/home/isura/Documents/FYP/pipeline/out/pipe_out/tweet-bin-out')
+    #     '/home/isura/Documents/FYP/pipeline/out/pipe_out/ikasl-out')
