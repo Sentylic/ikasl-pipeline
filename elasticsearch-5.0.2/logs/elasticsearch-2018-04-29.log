@@ -1,0 +1,183 @@
+[2018-04-29T18:17:58,702][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-04-29T18:17:59,147][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [202.1gb], net total_space [274gb], spins? [possibly], types [ext4]
+[2018-04-29T18:17:59,149][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-04-29T18:17:59,300][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-04-29T18:17:59,313][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[12560], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.15.0-20-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2018-04-29T18:18:01,188][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [aggs-matrix-stats]
+[2018-04-29T18:18:01,188][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [ingest-common]
+[2018-04-29T18:18:01,188][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-expression]
+[2018-04-29T18:18:01,188][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-groovy]
+[2018-04-29T18:18:01,188][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-mustache]
+[2018-04-29T18:18:01,188][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-painless]
+[2018-04-29T18:18:01,188][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [percolator]
+[2018-04-29T18:18:01,188][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [reindex]
+[2018-04-29T18:18:01,189][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty3]
+[2018-04-29T18:18:01,189][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty4]
+[2018-04-29T18:18:01,189][INFO ][o.e.p.PluginsService     ] [Z417L_e] no plugins loaded
+[2018-04-29T18:18:05,248][INFO ][o.e.n.Node               ] [Z417L_e] initialized
+[2018-04-29T18:18:05,248][INFO ][o.e.n.Node               ] [Z417L_e] starting ...
+[2018-04-29T18:18:05,628][INFO ][o.e.t.TransportService   ] [Z417L_e] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-04-29T18:18:05,633][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-04-29T18:18:05,633][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-04-29T18:18:08,751][INFO ][o.e.c.s.ClusterService   ] [Z417L_e] new_master {Z417L_e}{Z417L_eWTuWekqjU44BSpg}{TZt9xIiCTRqGPqtsQZTZ9w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-04-29T18:18:08,922][INFO ][o.e.h.HttpServer         ] [Z417L_e] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-04-29T18:18:08,930][INFO ][o.e.n.Node               ] [Z417L_e] started
+[2018-04-29T18:18:09,826][INFO ][o.e.g.GatewayService     ] [Z417L_e] recovered [2] indices into cluster_state
+[2018-04-29T18:18:13,089][INFO ][o.e.c.r.a.AllocationService] [Z417L_e] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[app][4], [app][0]] ...]).
+[2018-04-29T19:10:10,688][INFO ][o.e.n.Node               ] [Z417L_e] stopping ...
+[2018-04-29T19:10:10,950][INFO ][o.e.n.Node               ] [Z417L_e] stopped
+[2018-04-29T19:10:10,952][INFO ][o.e.n.Node               ] [Z417L_e] closing ...
+[2018-04-29T19:10:11,030][INFO ][o.e.n.Node               ] [Z417L_e] closed
+[2018-04-29T19:10:23,030][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-04-29T19:10:23,528][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [202.1gb], net total_space [274gb], spins? [possibly], types [ext4]
+[2018-04-29T19:10:23,529][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-04-29T19:10:23,664][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-04-29T19:10:23,690][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[14383], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.15.0-20-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2018-04-29T19:10:25,336][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [aggs-matrix-stats]
+[2018-04-29T19:10:25,336][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [ingest-common]
+[2018-04-29T19:10:25,336][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-expression]
+[2018-04-29T19:10:25,336][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-groovy]
+[2018-04-29T19:10:25,336][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-mustache]
+[2018-04-29T19:10:25,337][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-painless]
+[2018-04-29T19:10:25,337][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [percolator]
+[2018-04-29T19:10:25,337][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [reindex]
+[2018-04-29T19:10:25,337][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty3]
+[2018-04-29T19:10:25,337][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty4]
+[2018-04-29T19:10:25,337][INFO ][o.e.p.PluginsService     ] [Z417L_e] no plugins loaded
+[2018-04-29T19:10:29,115][INFO ][o.e.n.Node               ] [Z417L_e] initialized
+[2018-04-29T19:10:29,115][INFO ][o.e.n.Node               ] [Z417L_e] starting ...
+[2018-04-29T19:10:29,469][INFO ][o.e.t.TransportService   ] [Z417L_e] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-04-29T19:10:29,475][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-04-29T19:10:29,475][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-04-29T19:10:32,571][INFO ][o.e.c.s.ClusterService   ] [Z417L_e] new_master {Z417L_e}{Z417L_eWTuWekqjU44BSpg}{A-xX4p4ASVWTJKr1W4Hqhg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-04-29T19:10:32,689][INFO ][o.e.h.HttpServer         ] [Z417L_e] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-04-29T19:10:32,689][INFO ][o.e.n.Node               ] [Z417L_e] started
+[2018-04-29T19:10:32,973][WARN ][r.suppressed             ] path: /tweets/tweet/_search, params: {index=tweets, type=tweet}
+org.elasticsearch.cluster.block.ClusterBlockException: blocked by: [SERVICE_UNAVAILABLE/1/state not recovered / initialized];
+	at org.elasticsearch.cluster.block.ClusterBlocks.globalBlockedException(ClusterBlocks.java:161) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.cluster.block.ClusterBlocks.globalBlockedRaiseException(ClusterBlocks.java:147) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.action.search.AbstractSearchAsyncAction.<init>(AbstractSearchAsyncAction.java:93) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction.<init>(SearchQueryThenFetchAsyncAction.java:53) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.action.search.TransportSearchAction.searchAsyncAction(TransportSearchAction.java:109) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.action.search.TransportSearchAction.doExecute(TransportSearchAction.java:98) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.action.search.TransportSearchAction.doExecute(TransportSearchAction.java:46) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.action.support.TransportAction.doExecute(TransportAction.java:158) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.action.support.TransportAction$RequestFilterChain.proceed(TransportAction.java:182) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.action.ingest.IngestActionFilter.apply(IngestActionFilter.java:82) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.action.support.TransportAction$RequestFilterChain.proceed(TransportAction.java:180) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:153) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:87) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.client.node.NodeClient.executeLocally(NodeClient.java:75) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.client.node.NodeClient.doExecute(NodeClient.java:64) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:403) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.client.support.AbstractClient.search(AbstractClient.java:530) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.rest.action.search.RestSearchAction.lambda$prepareRequest$0(RestSearchAction.java:83) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:114) [elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:243) [elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:200) [elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.http.HttpServer.dispatchRequest(HttpServer.java:116) [elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.http.netty4.Netty4HttpServerTransport.dispatchRequest(Netty4HttpServerTransport.java:509) [transport-netty4-5.0.2.jar:5.0.2]
+	at org.elasticsearch.http.netty4.Netty4HttpRequestHandler.channelRead0(Netty4HttpRequestHandler.java:69) [transport-netty4-5.0.2.jar:5.0.2]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at org.elasticsearch.http.netty4.pipelining.HttpPipeliningHandler.channelRead(HttpPipeliningHandler.java:66) [transport-netty4-5.0.2.jar:5.0.2]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111) [netty-codec-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293) [netty-codec-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267) [netty-codec-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:513) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:467) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-common-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+[2018-04-29T19:10:33,945][INFO ][o.e.g.GatewayService     ] [Z417L_e] recovered [2] indices into cluster_state
+[2018-04-29T19:10:37,538][INFO ][o.e.c.r.a.AllocationService] [Z417L_e] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[app][1], [app][4]] ...]).
+[2018-04-29T23:46:49,236][INFO ][o.e.n.Node               ] [Z417L_e] stopping ...
+[2018-04-29T23:46:49,582][INFO ][o.e.n.Node               ] [Z417L_e] stopped
+[2018-04-29T23:46:49,583][INFO ][o.e.n.Node               ] [Z417L_e] closing ...
+[2018-04-29T23:46:49,654][INFO ][o.e.n.Node               ] [Z417L_e] closed
+[2018-04-29T23:46:57,508][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-04-29T23:46:58,041][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [202.1gb], net total_space [274gb], spins? [possibly], types [ext4]
+[2018-04-29T23:46:58,043][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-04-29T23:46:58,192][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-04-29T23:46:58,215][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[20108], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.15.0-20-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2018-04-29T23:46:59,849][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [aggs-matrix-stats]
+[2018-04-29T23:46:59,849][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [ingest-common]
+[2018-04-29T23:46:59,849][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-expression]
+[2018-04-29T23:46:59,850][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-groovy]
+[2018-04-29T23:46:59,850][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-mustache]
+[2018-04-29T23:46:59,850][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-painless]
+[2018-04-29T23:46:59,850][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [percolator]
+[2018-04-29T23:46:59,850][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [reindex]
+[2018-04-29T23:46:59,850][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty3]
+[2018-04-29T23:46:59,850][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty4]
+[2018-04-29T23:46:59,851][INFO ][o.e.p.PluginsService     ] [Z417L_e] no plugins loaded
+[2018-04-29T23:47:03,593][INFO ][o.e.n.Node               ] [Z417L_e] initialized
+[2018-04-29T23:47:03,593][INFO ][o.e.n.Node               ] [Z417L_e] starting ...
+[2018-04-29T23:47:03,947][INFO ][o.e.t.TransportService   ] [Z417L_e] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-04-29T23:47:03,953][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-04-29T23:47:03,953][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-04-29T23:47:07,056][INFO ][o.e.c.s.ClusterService   ] [Z417L_e] new_master {Z417L_e}{Z417L_eWTuWekqjU44BSpg}{sHHHbA_4TLOKgVXnNm-EXg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-04-29T23:47:07,168][INFO ][o.e.h.HttpServer         ] [Z417L_e] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-04-29T23:47:07,169][INFO ][o.e.n.Node               ] [Z417L_e] started
+[2018-04-29T23:47:08,770][INFO ][o.e.g.GatewayService     ] [Z417L_e] recovered [2] indices into cluster_state
+[2018-04-29T23:47:12,082][INFO ][o.e.c.r.a.AllocationService] [Z417L_e] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[app][3], [app][4]] ...]).
+[2018-04-29T23:51:33,002][INFO ][o.e.n.Node               ] [Z417L_e] stopping ...
+[2018-04-29T23:51:33,098][INFO ][o.e.n.Node               ] [Z417L_e] stopped
+[2018-04-29T23:51:33,098][INFO ][o.e.n.Node               ] [Z417L_e] closing ...
+[2018-04-29T23:51:33,107][INFO ][o.e.n.Node               ] [Z417L_e] closed
+[2018-04-29T23:58:24,829][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-04-29T23:58:25,340][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [202.1gb], net total_space [274gb], spins? [possibly], types [ext4]
+[2018-04-29T23:58:25,342][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-04-29T23:58:25,479][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-04-29T23:58:25,501][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[2683], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.15.0-20-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2018-04-29T23:58:27,428][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [aggs-matrix-stats]
+[2018-04-29T23:58:27,429][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [ingest-common]
+[2018-04-29T23:58:27,429][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-expression]
+[2018-04-29T23:58:27,429][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-groovy]
+[2018-04-29T23:58:27,432][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-mustache]
+[2018-04-29T23:58:27,432][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-painless]
+[2018-04-29T23:58:27,432][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [percolator]
+[2018-04-29T23:58:27,434][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [reindex]
+[2018-04-29T23:58:27,434][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty3]
+[2018-04-29T23:58:27,434][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty4]
+[2018-04-29T23:58:27,435][INFO ][o.e.p.PluginsService     ] [Z417L_e] no plugins loaded
+[2018-04-29T23:58:33,708][INFO ][o.e.n.Node               ] [Z417L_e] initialized
+[2018-04-29T23:58:33,712][INFO ][o.e.n.Node               ] [Z417L_e] starting ...
+[2018-04-29T23:58:34,225][INFO ][o.e.t.TransportService   ] [Z417L_e] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-04-29T23:58:34,238][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-04-29T23:58:34,238][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-04-29T23:58:37,402][INFO ][o.e.c.s.ClusterService   ] [Z417L_e] new_master {Z417L_e}{Z417L_eWTuWekqjU44BSpg}{nnbkiSVQTNOKsinH5GOgcA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-04-29T23:58:37,518][INFO ][o.e.h.HttpServer         ] [Z417L_e] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-04-29T23:58:37,519][INFO ][o.e.n.Node               ] [Z417L_e] started
+[2018-04-29T23:58:38,317][INFO ][o.e.g.GatewayService     ] [Z417L_e] recovered [2] indices into cluster_state
+[2018-04-29T23:58:42,304][INFO ][o.e.c.r.a.AllocationService] [Z417L_e] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[app][3]] ...]).

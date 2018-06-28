@@ -1,0 +1,61 @@
+[2018-06-06T23:40:27,506][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-06-06T23:40:27,962][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [166.6gb], net total_space [274gb], spins? [possibly], types [ext4]
+[2018-06-06T23:40:27,964][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-06-06T23:40:28,861][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-06-06T23:40:28,890][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[2677], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.15.0-22-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2018-06-06T23:40:30,560][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [aggs-matrix-stats]
+[2018-06-06T23:40:30,560][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [ingest-common]
+[2018-06-06T23:40:30,560][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-expression]
+[2018-06-06T23:40:30,560][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-groovy]
+[2018-06-06T23:40:30,560][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-mustache]
+[2018-06-06T23:40:30,560][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-painless]
+[2018-06-06T23:40:30,561][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [percolator]
+[2018-06-06T23:40:30,561][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [reindex]
+[2018-06-06T23:40:30,561][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty3]
+[2018-06-06T23:40:30,562][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty4]
+[2018-06-06T23:40:30,563][INFO ][o.e.p.PluginsService     ] [Z417L_e] no plugins loaded
+[2018-06-06T23:40:34,504][INFO ][o.e.n.Node               ] [Z417L_e] initialized
+[2018-06-06T23:40:34,504][INFO ][o.e.n.Node               ] [Z417L_e] starting ...
+[2018-06-06T23:40:34,835][INFO ][o.e.t.TransportService   ] [Z417L_e] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-06-06T23:40:34,839][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-06-06T23:40:34,839][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-06-06T23:40:37,923][INFO ][o.e.c.s.ClusterService   ] [Z417L_e] new_master {Z417L_e}{Z417L_eWTuWekqjU44BSpg}{nDrJCl2GS1eQKGsHCjfL-g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-06-06T23:40:38,025][INFO ][o.e.h.HttpServer         ] [Z417L_e] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-06-06T23:40:38,026][INFO ][o.e.n.Node               ] [Z417L_e] started
+[2018-06-06T23:40:39,797][INFO ][o.e.g.GatewayService     ] [Z417L_e] recovered [6] indices into cluster_state
+[2018-06-06T23:40:48,790][INFO ][o.e.c.r.a.AllocationService] [Z417L_e] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[kandy][0]] ...]).
+[2018-06-06T23:40:48,893][INFO ][o.e.c.m.MetaDataCreateIndexService] [Z417L_e] [fb] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2018-06-06T23:41:13,711][INFO ][o.e.c.m.MetaDataMappingService] [Z417L_e] [fb/yvFKmv4jSdaunPXITCTlHw] create_mapping [tweet]
+[2018-06-06T23:57:25,713][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-06-06T23:57:26,200][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda4)]], net usable_space [1.5gb], net total_space [36.1gb], spins? [possibly], types [ext4]
+[2018-06-06T23:57:26,201][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [483.3mb], compressed ordinary object pointers [true]
+[2018-06-06T23:57:26,428][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-06-06T23:57:26,454][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[2209], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.4.0-127-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2018-06-06T23:57:28,485][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [aggs-matrix-stats]
+[2018-06-06T23:57:28,485][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [ingest-common]
+[2018-06-06T23:57:28,485][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-expression]
+[2018-06-06T23:57:28,485][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-groovy]
+[2018-06-06T23:57:28,485][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-mustache]
+[2018-06-06T23:57:28,485][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-painless]
+[2018-06-06T23:57:28,485][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [percolator]
+[2018-06-06T23:57:28,486][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [reindex]
+[2018-06-06T23:57:28,486][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty3]
+[2018-06-06T23:57:28,486][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty4]
+[2018-06-06T23:57:28,486][INFO ][o.e.p.PluginsService     ] [Z417L_e] no plugins loaded
+[2018-06-06T23:57:32,540][INFO ][o.e.n.Node               ] [Z417L_e] initialized
+[2018-06-06T23:57:32,540][INFO ][o.e.n.Node               ] [Z417L_e] starting ...
+[2018-06-06T23:57:32,933][INFO ][o.e.t.TransportService   ] [Z417L_e] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-06-06T23:57:32,938][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-06-06T23:57:36,029][INFO ][o.e.c.s.ClusterService   ] [Z417L_e] new_master {Z417L_e}{Z417L_eWTuWekqjU44BSpg}{5fEx_rAaT-euO0KUR3Bx0w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-06-06T23:57:36,111][INFO ][o.e.h.HttpServer         ] [Z417L_e] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-06-06T23:57:36,112][INFO ][o.e.n.Node               ] [Z417L_e] started
+[2018-06-06T23:57:37,268][INFO ][o.e.g.GatewayService     ] [Z417L_e] recovered [7] indices into cluster_state
+[2018-06-06T23:57:46,657][INFO ][o.e.c.r.a.AllocationService] [Z417L_e] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[kandy][0]] ...]).
+[2018-06-06T23:58:06,129][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/elasticsearch-5.0.2/data/nodes/0] free: 1.5gb[4.1%], shards will be relocated away from this node
+[2018-06-06T23:58:06,130][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-06T23:58:36,207][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/elasticsearch-5.0.2/data/nodes/0] free: 1.5gb[4.1%], shards will be relocated away from this node
+[2018-06-06T23:58:45,481][INFO ][o.e.c.m.MetaDataCreateIndexService] [Z417L_e] [tweets] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2018-06-06T23:59:03,209][INFO ][o.e.c.m.MetaDataMappingService] [Z417L_e] [tweets/57rPrm6nRG24ns9cedKYXQ] create_mapping [tweet]
+[2018-06-06T23:59:06,247][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/elasticsearch-5.0.2/data/nodes/0] free: 1.5gb[4.1%], shards will be relocated away from this node
+[2018-06-06T23:59:06,248][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-06T23:59:36,266][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/elasticsearch-5.0.2/data/nodes/0] free: 1.5gb[4.1%], shards will be relocated away from this node

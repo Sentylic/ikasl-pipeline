@@ -1,0 +1,35 @@
+[2018-03-07T19:24:08,833][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-03-07T19:24:09,565][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [218.5gb], net total_space [274gb], spins? [possibly], types [ext4]
+[2018-03-07T19:24:09,567][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-03-07T19:24:09,828][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-03-07T19:24:09,869][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[7191], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.13.0-36-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2018-03-07T19:24:14,359][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [aggs-matrix-stats]
+[2018-03-07T19:24:14,360][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [ingest-common]
+[2018-03-07T19:24:14,360][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-expression]
+[2018-03-07T19:24:14,360][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-groovy]
+[2018-03-07T19:24:14,361][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-mustache]
+[2018-03-07T19:24:14,361][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-painless]
+[2018-03-07T19:24:14,361][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [percolator]
+[2018-03-07T19:24:14,362][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [reindex]
+[2018-03-07T19:24:14,362][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty3]
+[2018-03-07T19:24:14,363][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty4]
+[2018-03-07T19:24:14,364][INFO ][o.e.p.PluginsService     ] [Z417L_e] no plugins loaded
+[2018-03-07T19:24:19,201][INFO ][o.e.n.Node               ] [Z417L_e] initialized
+[2018-03-07T19:24:19,201][INFO ][o.e.n.Node               ] [Z417L_e] starting ...
+[2018-03-07T19:24:19,595][INFO ][o.e.t.TransportService   ] [Z417L_e] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-03-07T19:24:19,603][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-03-07T19:24:19,604][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-03-07T19:24:22,751][INFO ][o.e.c.s.ClusterService   ] [Z417L_e] new_master {Z417L_e}{Z417L_eWTuWekqjU44BSpg}{8DK4Pw3sSrmyboS8whsnng}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-03-07T19:24:23,312][INFO ][o.e.h.HttpServer         ] [Z417L_e] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-03-07T19:24:23,313][INFO ][o.e.n.Node               ] [Z417L_e] started
+[2018-03-07T19:24:24,518][INFO ][o.e.g.GatewayService     ] [Z417L_e] recovered [1] indices into cluster_state
+[2018-03-07T19:25:09,126][WARN ][o.e.c.s.ClusterService   ] [Z417L_e] cluster state update task [cluster_reroute(async_shard_fetch)] took [44.4s] above the warn threshold of 30s
+[2018-03-07T19:25:12,994][INFO ][o.e.c.r.a.AllocationService] [Z417L_e] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[app][0]] ...]).
+[2018-03-07T19:26:27,807][INFO ][o.e.c.m.MetaDataCreateIndexService] [Z417L_e] [app] creating index, cause [api], templates [], shards [5]/[1], mappings [car, user]
+[2018-03-07T19:29:54,016][INFO ][o.e.c.m.MetaDataCreateIndexService] [Z417L_e] [app] creating index, cause [api], templates [], shards [5]/[1], mappings [car, user]
+[2018-03-07T19:30:40,714][INFO ][o.e.c.m.MetaDataCreateIndexService] [Z417L_e] [app] creating index, cause [api], templates [], shards [5]/[1], mappings [car, user]
+[2018-03-07T19:37:56,080][INFO ][o.e.c.m.MetaDataCreateIndexService] [Z417L_e] [app] creating index, cause [api], templates [], shards [5]/[1], mappings [car, user]
+[2018-03-07T20:13:52,947][INFO ][o.e.n.Node               ] [Z417L_e] stopping ...
+[2018-03-07T20:13:53,468][INFO ][o.e.n.Node               ] [Z417L_e] stopped
+[2018-03-07T20:13:53,468][INFO ][o.e.n.Node               ] [Z417L_e] closing ...
+[2018-03-07T20:13:53,527][INFO ][o.e.n.Node               ] [Z417L_e] closed

@@ -1,4 +1,3 @@
-from pipe import *
 from utils import *
 import os
 import datetime
@@ -10,21 +9,40 @@ class PipeLine():
         self.out_dir = os.path.abspath(out_dir)
         self.out_sub_dir_name_equals_start_time = out_sub_dir_name_equals_start_time
         self.steps = []
+        self.bg_steps = []
         self.log_params_to_file = log_params_to_file
+        self.pipe_id = datetime.datetime.now().strftime('%Y-%m-%d_%H:%M-%S')
         self._create_working_dir()
 
-    def add(self, step):
+    def add_pipe(self, step):
+        step.pipe_id = self.pipe_id
         self.steps.append(step)
         return self
 
+    def add_bg_step(self, bg_step):
+        bg_step.pipe_id = self.pipe_id
+        self.bg_steps.append(bg_step)
+
     def run(self, in_dir):
+        self.start_bg_processes()
         curr_dir = self._create_new_input_dir(in_dir)
         for step in self.steps:
             self._log_step_params(step)
             print pprint_message_str('Running {} with params {}'.format(
                 step.__class__.__name__, str(step.params)))
             curr_dir = step.execute(curr_dir)
+        self.finalize_bg_processes()
         return curr_dir
+
+    def start_bg_processes(self):
+        for bg_step in self.bg_steps:
+            message = bg_step.run_bg()
+            print pprint_message_str(message)
+
+    def finalize_bg_processes(self):
+        for bg_step in self.bg_steps:
+            message = bg_step.finalize()
+            print pprint_message_str(message)
 
     def _log_step_params(self, step):
         if self.log_params_to_file:
@@ -47,23 +65,9 @@ class PipeLine():
 
     def _create_working_dir(self):
         if self.out_sub_dir_name_equals_start_time:
-            start_time = datetime.datetime.now().strftime('%Y-%m-%d_%H:%M-%S')
+            start_time = self.pipe_id
             self.working_dir = '{}/{}'.format(self.out_dir, start_time)
         else:
             self.working_dir = '{}/{}'.format(self.out_dir, 'pipe_out')
         if not os.path.exists(self.working_dir):
             os.makedirs(self.working_dir)
-
-
-if __name__ == '__main__':
-    pipeline = PipeLine()
-    pipeline.add(TweetBinStep(
-        {'tweet-frequency': 'daily', 'tweet-format': 'json'}))
-    pipeline.add(FeatureExtractStep(
-        {'jar-path': '../jars/TextFeatureExtractor.jar', 'tweet-frequency': 'daily', 'in-place': 'False', 'query-params': ["facebook", "delete", "fb", "deletefacebook"]}))
-    pipeline.add(IKASLStep(
-        {'jar-path': '../jars/IKASL.jar', 'in-place': 'False', 'tweet-frequency': 'daily', 'additional-args': {'htf': 0.0025}}))
-    pipeline.add(LayerProcessStep({'tweet-frequency': 'daily'}))
-    pipeline.run('../data/1')
-    # pipeline.run(
-    #     '/home/isura/Documents/FYP/pipeline/out/pipe_out/ikasl-out')

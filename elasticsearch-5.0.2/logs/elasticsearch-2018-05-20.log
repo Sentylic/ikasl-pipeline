@@ -1,0 +1,61 @@
+[2018-05-20T13:40:00,906][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-20T13:40:01,776][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [187gb], net total_space [274gb], spins? [possibly], types [ext4]
+[2018-05-20T13:40:01,777][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-20T13:40:02,923][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-05-20T13:40:02,954][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[7287], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.15.0-20-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2018-05-20T13:40:06,586][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [aggs-matrix-stats]
+[2018-05-20T13:40:06,587][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [ingest-common]
+[2018-05-20T13:40:06,587][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-expression]
+[2018-05-20T13:40:06,587][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-groovy]
+[2018-05-20T13:40:06,587][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-mustache]
+[2018-05-20T13:40:06,587][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-painless]
+[2018-05-20T13:40:06,588][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [percolator]
+[2018-05-20T13:40:06,588][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [reindex]
+[2018-05-20T13:40:06,591][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty3]
+[2018-05-20T13:40:06,592][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty4]
+[2018-05-20T13:40:06,592][INFO ][o.e.p.PluginsService     ] [Z417L_e] no plugins loaded
+[2018-05-20T13:40:23,832][INFO ][o.e.n.Node               ] [Z417L_e] initialized
+[2018-05-20T13:40:23,832][INFO ][o.e.n.Node               ] [Z417L_e] starting ...
+[2018-05-20T13:40:25,374][INFO ][o.e.t.TransportService   ] [Z417L_e] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-05-20T13:40:25,382][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-05-20T13:40:25,382][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-05-20T13:40:29,072][INFO ][o.e.c.s.ClusterService   ] [Z417L_e] new_master {Z417L_e}{Z417L_eWTuWekqjU44BSpg}{rY7h8p8NQO-9sBePjfriwg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-20T13:40:30,273][INFO ][o.e.h.HttpServer         ] [Z417L_e] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-05-20T13:40:30,273][INFO ][o.e.n.Node               ] [Z417L_e] started
+[2018-05-20T13:40:39,209][INFO ][o.e.g.GatewayService     ] [Z417L_e] recovered [6] indices into cluster_state
+[2018-05-20T13:41:01,901][INFO ][o.e.c.r.a.AllocationService] [Z417L_e] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[app][4]] ...]).
+[2018-05-20T17:26:43,054][INFO ][o.e.n.Node               ] [Z417L_e] stopping ...
+[2018-05-20T17:26:43,421][INFO ][o.e.n.Node               ] [Z417L_e] stopped
+[2018-05-20T17:26:43,421][INFO ][o.e.n.Node               ] [Z417L_e] closing ...
+[2018-05-20T17:26:43,463][INFO ][o.e.n.Node               ] [Z417L_e] closed
+[2018-05-20T22:06:40,456][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-20T22:06:42,334][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [186.6gb], net total_space [274gb], spins? [possibly], types [ext4]
+[2018-05-20T22:06:42,336][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-20T22:06:46,322][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-05-20T22:06:46,853][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[14037], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.15.0-20-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2018-05-20T22:06:52,442][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [aggs-matrix-stats]
+[2018-05-20T22:06:54,471][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [ingest-common]
+[2018-05-20T22:06:54,472][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-expression]
+[2018-05-20T22:06:54,473][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-groovy]
+[2018-05-20T22:06:54,473][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-mustache]
+[2018-05-20T22:06:54,473][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-painless]
+[2018-05-20T22:06:54,474][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [percolator]
+[2018-05-20T22:06:54,474][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [reindex]
+[2018-05-20T22:06:54,474][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty3]
+[2018-05-20T22:06:54,475][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty4]
+[2018-05-20T22:06:54,477][INFO ][o.e.p.PluginsService     ] [Z417L_e] no plugins loaded
+[2018-05-20T22:07:09,531][INFO ][o.e.n.Node               ] [Z417L_e] initialized
+[2018-05-20T22:07:09,532][INFO ][o.e.n.Node               ] [Z417L_e] starting ...
+[2018-05-20T22:07:10,672][INFO ][o.e.t.TransportService   ] [Z417L_e] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-05-20T22:07:10,679][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-05-20T22:07:10,679][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-05-20T22:07:14,402][INFO ][o.e.c.s.ClusterService   ] [Z417L_e] new_master {Z417L_e}{Z417L_eWTuWekqjU44BSpg}{Itc4QegkT4OnYRoDZQC7xw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-20T22:07:16,038][INFO ][o.e.h.HttpServer         ] [Z417L_e] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-05-20T22:07:16,039][INFO ][o.e.n.Node               ] [Z417L_e] started
+[2018-05-20T22:07:22,719][INFO ][o.e.g.GatewayService     ] [Z417L_e] recovered [6] indices into cluster_state
+[2018-05-20T22:08:00,726][WARN ][o.e.c.s.ClusterService   ] [Z417L_e] cluster state update task [shard-started[shard id [[obama][3]], allocation id [pQGrYD-zR4qiP_0Lz2Qzwg], primary term [0], message [after existing recovery], shard id [[obama][4]], allocation id [MRXdFrCrSnSxsi_TYeC_PQ], primary term [0], message [after existing recovery]]] took [35.2s] above the warn threshold of 30s
+[2018-05-20T22:08:13,303][INFO ][o.e.c.r.a.AllocationService] [Z417L_e] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[app][0]] ...]).
+[2018-05-20T22:49:00,053][INFO ][o.e.n.Node               ] [Z417L_e] stopping ...
+[2018-05-20T22:49:00,264][INFO ][o.e.n.Node               ] [Z417L_e] stopped
+[2018-05-20T22:49:00,265][INFO ][o.e.n.Node               ] [Z417L_e] closing ...
+[2018-05-20T22:49:00,279][INFO ][o.e.n.Node               ] [Z417L_e] closed
