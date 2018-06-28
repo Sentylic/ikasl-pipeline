@@ -15,7 +15,7 @@ class LayerProcessStep(_Step):
         in_dir_single_iter = '{}/{}_7'.format(in_dir,
                                               self.params['tweet-frequency'])
         time_stamps = self.get_time_stamps(in_dir_single_iter)
-        process.process_layers(time_stamps, in_dir_single_iter, out_dir)
+        process.process_layers(time_stamps, in_dir_single_iter, out_dir, self.pipe_id)
         return out_dir
 
     def get_out_dir(self, in_dir):

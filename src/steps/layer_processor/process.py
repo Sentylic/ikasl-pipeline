@@ -6,12 +6,12 @@ import time
 import datetime
 
 
-def process_layers(time_stamps, data_path, out_dir):
+def process_layers(time_stamps, data_path, out_dir, out_file_id):
     emotions = ['sad', 'happy', 'angry', 'excited', 'fear']
     id2id = {}
 
     total_clusters = 0
-    with open('{}/out.json'.format(out_dir), 'w') as out_f:
+    with open('{}/out-{}.json'.format(out_dir, out_file_id), 'w') as out_f:
         for layer in xrange(len(time_stamps)):
             data = json.loads(open(data_path + "/layer_" + str(layer)).read())
             clusters = data['clusters']
