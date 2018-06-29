@@ -1,0 +1,609 @@
+[2018-06-29T21:30:56,005][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-06-29T21:30:57,661][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda4)]], net usable_space [2.8gb], net total_space [36.1gb], spins? [possibly], types [ext4]
+[2018-06-29T21:30:57,662][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [483.3mb], compressed ordinary object pointers [true]
+[2018-06-29T21:30:58,862][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-06-29T21:30:58,937][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[6965], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.4.0-128-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2018-06-29T21:31:17,781][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-06-29T21:31:50,697][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-06-29T21:31:51,761][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda4)]], net usable_space [2.8gb], net total_space [36.1gb], spins? [possibly], types [ext4]
+[2018-06-29T21:31:51,761][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [483.3mb], compressed ordinary object pointers [true]
+[2018-06-29T21:31:53,198][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-06-29T21:31:53,304][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[7246], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.4.0-128-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2018-06-29T21:31:57,000][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [aggs-matrix-stats]
+[2018-06-29T21:31:57,001][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [ingest-common]
+[2018-06-29T21:31:57,001][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-expression]
+[2018-06-29T21:31:57,001][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-groovy]
+[2018-06-29T21:31:57,001][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-mustache]
+[2018-06-29T21:31:57,001][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-painless]
+[2018-06-29T21:31:57,001][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [percolator]
+[2018-06-29T21:31:57,001][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [reindex]
+[2018-06-29T21:31:57,002][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty3]
+[2018-06-29T21:31:57,002][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty4]
+[2018-06-29T21:31:57,002][INFO ][o.e.p.PluginsService     ] [Z417L_e] no plugins loaded
+[2018-06-29T21:32:14,255][INFO ][o.e.n.Node               ] [Z417L_e] initialized
+[2018-06-29T21:32:14,255][INFO ][o.e.n.Node               ] [Z417L_e] starting ...
+[2018-06-29T21:32:15,928][INFO ][o.e.t.TransportService   ] [Z417L_e] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-06-29T21:32:15,950][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-06-29T21:32:19,795][INFO ][o.e.c.s.ClusterService   ] [Z417L_e] new_master {Z417L_e}{Z417L_eWTuWekqjU44BSpg}{MbLKoWjzTb2UErpy5KG3iQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-06-29T21:32:20,306][INFO ][o.e.h.HttpServer         ] [Z417L_e] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-06-29T21:32:20,306][INFO ][o.e.n.Node               ] [Z417L_e] started
+[2018-06-29T21:32:26,999][INFO ][o.e.g.GatewayService     ] [Z417L_e] recovered [12] indices into cluster_state
+[2018-06-29T21:32:42,119][INFO ][o.e.n.Node               ] [Z417L_e] stopping ...
+[2018-06-29T21:32:45,458][INFO ][o.e.n.Node               ] [Z417L_e] stopped
+[2018-06-29T21:32:45,459][INFO ][o.e.n.Node               ] [Z417L_e] closing ...
+[2018-06-29T21:32:45,545][INFO ][o.e.n.Node               ] [Z417L_e] closed
+[2018-06-29T21:38:20,480][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-06-29T21:38:20,806][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda4)]], net usable_space [2.8gb], net total_space [36.1gb], spins? [possibly], types [ext4]
+[2018-06-29T21:38:20,809][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [483.3mb], compressed ordinary object pointers [true]
+[2018-06-29T21:38:21,373][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-06-29T21:38:21,402][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[7834], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.4.0-128-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2018-06-29T21:38:24,870][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [aggs-matrix-stats]
+[2018-06-29T21:38:24,870][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [ingest-common]
+[2018-06-29T21:38:24,870][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-expression]
+[2018-06-29T21:38:24,870][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-groovy]
+[2018-06-29T21:38:24,870][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-mustache]
+[2018-06-29T21:38:24,870][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-painless]
+[2018-06-29T21:38:24,871][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [percolator]
+[2018-06-29T21:38:24,871][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [reindex]
+[2018-06-29T21:38:24,872][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty3]
+[2018-06-29T21:38:24,872][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty4]
+[2018-06-29T21:38:24,874][INFO ][o.e.p.PluginsService     ] [Z417L_e] no plugins loaded
+[2018-06-29T21:38:30,642][INFO ][o.e.n.Node               ] [Z417L_e] initialized
+[2018-06-29T21:38:30,644][INFO ][o.e.n.Node               ] [Z417L_e] starting ...
+[2018-06-29T21:38:31,413][INFO ][o.e.t.TransportService   ] [Z417L_e] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-06-29T21:38:31,428][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-06-29T21:38:34,646][INFO ][o.e.c.s.ClusterService   ] [Z417L_e] new_master {Z417L_e}{Z417L_eWTuWekqjU44BSpg}{XqyQfI8DR5yBieKyhXGrYw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-06-29T21:38:34,727][INFO ][o.e.h.HttpServer         ] [Z417L_e] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-06-29T21:38:34,733][INFO ][o.e.n.Node               ] [Z417L_e] started
+[2018-06-29T21:38:36,620][INFO ][o.e.g.GatewayService     ] [Z417L_e] recovered [12] indices into cluster_state
+[2018-06-29T21:38:59,728][INFO ][o.e.c.r.a.AllocationService] [Z417L_e] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[kandy][2]] ...]).
+[2018-06-29T21:39:04,781][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T21:39:04,782][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T21:39:34,822][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T21:40:04,858][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T21:40:04,859][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T21:40:10,620][INFO ][o.e.n.Node               ] [Z417L_e] stopping ...
+[2018-06-29T21:40:10,711][INFO ][o.e.n.Node               ] [Z417L_e] stopped
+[2018-06-29T21:40:10,716][INFO ][o.e.n.Node               ] [Z417L_e] closing ...
+[2018-06-29T21:40:10,770][INFO ][o.e.n.Node               ] [Z417L_e] closed
+[2018-06-29T21:53:01,489][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-06-29T21:53:01,638][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda4)]], net usable_space [2.8gb], net total_space [36.1gb], spins? [possibly], types [ext4]
+[2018-06-29T21:53:01,638][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [483.3mb], compressed ordinary object pointers [true]
+[2018-06-29T21:53:01,884][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-06-29T21:53:01,902][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[9488], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.4.0-128-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2018-06-29T21:53:03,078][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [aggs-matrix-stats]
+[2018-06-29T21:53:03,078][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [ingest-common]
+[2018-06-29T21:53:03,079][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-expression]
+[2018-06-29T21:53:03,079][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-groovy]
+[2018-06-29T21:53:03,079][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-mustache]
+[2018-06-29T21:53:03,079][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-painless]
+[2018-06-29T21:53:03,079][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [percolator]
+[2018-06-29T21:53:03,079][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [reindex]
+[2018-06-29T21:53:03,079][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty3]
+[2018-06-29T21:53:03,079][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty4]
+[2018-06-29T21:53:03,080][INFO ][o.e.p.PluginsService     ] [Z417L_e] no plugins loaded
+[2018-06-29T21:53:06,395][INFO ][o.e.n.Node               ] [Z417L_e] initialized
+[2018-06-29T21:53:06,395][INFO ][o.e.n.Node               ] [Z417L_e] starting ...
+[2018-06-29T21:53:06,709][INFO ][o.e.t.TransportService   ] [Z417L_e] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-06-29T21:53:06,722][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-06-29T21:53:09,991][INFO ][o.e.c.s.ClusterService   ] [Z417L_e] new_master {Z417L_e}{Z417L_eWTuWekqjU44BSpg}{EGwkk4Y5TvqddB9aEvBXzQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-06-29T21:53:10,046][INFO ][o.e.h.HttpServer         ] [Z417L_e] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-06-29T21:53:10,046][INFO ][o.e.n.Node               ] [Z417L_e] started
+[2018-06-29T21:53:11,167][INFO ][o.e.g.GatewayService     ] [Z417L_e] recovered [12] indices into cluster_state
+[2018-06-29T21:53:20,486][INFO ][o.e.n.Node               ] [Z417L_e] stopping ...
+[2018-06-29T21:53:21,000][INFO ][o.e.n.Node               ] [Z417L_e] stopped
+[2018-06-29T21:53:21,004][INFO ][o.e.n.Node               ] [Z417L_e] closing ...
+[2018-06-29T21:53:21,027][INFO ][o.e.n.Node               ] [Z417L_e] closed
+[2018-06-29T21:53:35,796][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-06-29T21:53:35,946][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda4)]], net usable_space [2.8gb], net total_space [36.1gb], spins? [possibly], types [ext4]
+[2018-06-29T21:53:35,947][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [483.3mb], compressed ordinary object pointers [true]
+[2018-06-29T21:53:36,064][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-06-29T21:53:36,074][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[9652], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.4.0-128-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2018-06-29T21:53:36,966][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [aggs-matrix-stats]
+[2018-06-29T21:53:36,966][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [ingest-common]
+[2018-06-29T21:53:36,966][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-expression]
+[2018-06-29T21:53:36,967][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-groovy]
+[2018-06-29T21:53:36,967][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-mustache]
+[2018-06-29T21:53:36,967][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-painless]
+[2018-06-29T21:53:36,967][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [percolator]
+[2018-06-29T21:53:36,967][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [reindex]
+[2018-06-29T21:53:36,967][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty3]
+[2018-06-29T21:53:36,968][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty4]
+[2018-06-29T21:53:36,969][INFO ][o.e.p.PluginsService     ] [Z417L_e] no plugins loaded
+[2018-06-29T21:53:39,264][INFO ][o.e.n.Node               ] [Z417L_e] initialized
+[2018-06-29T21:53:39,265][INFO ][o.e.n.Node               ] [Z417L_e] starting ...
+[2018-06-29T21:53:39,433][INFO ][o.e.t.TransportService   ] [Z417L_e] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-06-29T21:53:39,440][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-06-29T21:53:39,524][INFO ][o.e.n.Node               ] [Z417L_e] stopping ...
+[2018-06-29T21:53:39,570][WARN ][o.e.d.z.p.u.UnicastZenPing] [Z417L_e] [1] failed send ping to {#zen_unicast_6#}{LPvfnBDgRlCnGZevEdWLmQ}{::1}{[::1]:9300}
+java.lang.IllegalStateException: handshake failed with {#zen_unicast_6#}{LPvfnBDgRlCnGZevEdWLmQ}{::1}{[::1]:9300}
+	at org.elasticsearch.transport.TransportService.handshake(TransportService.java:364) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.transport.TransportService.connectToNodeLightAndHandshake(TransportService.java:339) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.transport.TransportService.connectToNodeLightAndHandshake(TransportService.java:313) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.discovery.zen.ping.unicast.UnicastZenPing$2.run(UnicastZenPing.java:419) [elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:458) [elasticsearch-5.0.2.jar:5.0.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_60]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_60]
+Caused by: org.elasticsearch.transport.SendRequestTransportException: [][[::1]:9300][internal:transport/handshake]
+	at org.elasticsearch.transport.TransportService.sendRequestInternal(TransportService.java:504) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:459) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.transport.TransportService.submitRequest(TransportService.java:445) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.transport.TransportService.handshake(TransportService.java:352) ~[elasticsearch-5.0.2.jar:5.0.2]
+	... 7 more
+Caused by: org.elasticsearch.transport.TransportException: TransportService is closed stopped can't send request
+	at org.elasticsearch.transport.TransportService.sendRequestInternal(TransportService.java:484) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:459) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.transport.TransportService.submitRequest(TransportService.java:445) ~[elasticsearch-5.0.2.jar:5.0.2]
+	at org.elasticsearch.transport.TransportService.handshake(TransportService.java:352) ~[elasticsearch-5.0.2.jar:5.0.2]
+	... 7 more
+[2018-06-29T21:53:39,588][INFO ][o.e.h.HttpServer         ] [Z417L_e] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-06-29T21:53:39,592][INFO ][o.e.n.Node               ] [Z417L_e] started
+[2018-06-29T21:53:39,623][INFO ][o.e.n.Node               ] [Z417L_e] stopped
+[2018-06-29T21:53:39,623][INFO ][o.e.n.Node               ] [Z417L_e] closing ...
+[2018-06-29T21:53:39,673][INFO ][o.e.n.Node               ] [Z417L_e] closed
+[2018-06-29T21:55:24,425][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-06-29T21:55:24,974][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda4)]], net usable_space [2.8gb], net total_space [36.1gb], spins? [possibly], types [ext4]
+[2018-06-29T21:55:24,975][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [483.3mb], compressed ordinary object pointers [true]
+[2018-06-29T21:55:25,851][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-06-29T21:55:25,881][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[10094], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.4.0-128-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2018-06-29T21:55:28,361][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [aggs-matrix-stats]
+[2018-06-29T21:55:28,363][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [ingest-common]
+[2018-06-29T21:55:28,366][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-expression]
+[2018-06-29T21:55:28,369][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-groovy]
+[2018-06-29T21:55:28,369][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-mustache]
+[2018-06-29T21:55:28,369][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-painless]
+[2018-06-29T21:55:28,369][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [percolator]
+[2018-06-29T21:55:28,373][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [reindex]
+[2018-06-29T21:55:28,375][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty3]
+[2018-06-29T21:55:28,378][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty4]
+[2018-06-29T21:55:28,381][INFO ][o.e.p.PluginsService     ] [Z417L_e] no plugins loaded
+[2018-06-29T21:55:33,663][INFO ][o.e.n.Node               ] [Z417L_e] initialized
+[2018-06-29T21:55:33,668][INFO ][o.e.n.Node               ] [Z417L_e] starting ...
+[2018-06-29T21:55:34,207][INFO ][o.e.t.TransportService   ] [Z417L_e] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-06-29T21:55:34,218][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-06-29T21:55:37,343][INFO ][o.e.c.s.ClusterService   ] [Z417L_e] new_master {Z417L_e}{Z417L_eWTuWekqjU44BSpg}{105V1dwISxq0TQVg7SXd0w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-06-29T21:55:37,422][INFO ][o.e.h.HttpServer         ] [Z417L_e] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-06-29T21:55:37,422][INFO ][o.e.n.Node               ] [Z417L_e] started
+[2018-06-29T21:55:41,381][INFO ][o.e.g.GatewayService     ] [Z417L_e] recovered [12] indices into cluster_state
+[2018-06-29T21:56:05,583][INFO ][o.e.c.r.a.AllocationService] [Z417L_e] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[kandy][2]] ...]).
+[2018-06-29T21:56:07,473][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T21:56:07,474][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T21:56:37,508][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T21:57:07,528][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T21:57:07,529][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T21:57:37,554][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T21:58:07,602][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T21:58:07,603][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T21:58:38,106][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T21:59:08,128][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T21:59:08,128][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T21:59:38,150][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:00:08,173][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:00:08,174][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:00:38,194][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:01:08,238][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:01:08,240][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:01:38,264][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:02:08,305][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:02:08,305][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:02:38,329][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T22:03:08,351][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T22:03:08,352][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:03:38,373][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T22:04:08,393][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T22:04:08,394][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:04:38,415][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T22:05:08,436][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T22:05:08,436][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:05:38,462][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T22:06:08,484][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T22:06:08,484][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:06:38,530][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T22:07:08,570][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T22:07:08,570][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:07:38,591][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T22:08:08,616][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T22:08:08,617][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:08:38,638][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T22:09:08,686][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T22:09:08,687][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:09:38,734][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T22:10:08,774][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T22:10:08,774][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:10:16,730][INFO ][o.e.n.Node               ] [Z417L_e] stopping ...
+[2018-06-29T22:10:16,902][INFO ][o.e.n.Node               ] [Z417L_e] stopped
+[2018-06-29T22:10:16,904][INFO ][o.e.n.Node               ] [Z417L_e] closing ...
+[2018-06-29T22:10:16,932][INFO ][o.e.n.Node               ] [Z417L_e] closed
+[2018-06-29T22:10:47,808][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-06-29T22:10:48,243][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda4)]], net usable_space [2.8gb], net total_space [36.1gb], spins? [possibly], types [ext4]
+[2018-06-29T22:10:48,244][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [483.3mb], compressed ordinary object pointers [true]
+[2018-06-29T22:10:48,905][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-06-29T22:10:48,932][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[11084], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.4.0-128-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2018-06-29T22:11:24,754][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-06-29T22:11:24,916][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda4)]], net usable_space [2.8gb], net total_space [36.1gb], spins? [possibly], types [ext4]
+[2018-06-29T22:11:24,917][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [483.3mb], compressed ordinary object pointers [true]
+[2018-06-29T22:11:25,074][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-06-29T22:11:25,076][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[11184], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.4.0-128-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2018-06-29T22:12:30,536][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-06-29T22:12:30,726][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda4)]], net usable_space [2.8gb], net total_space [36.1gb], spins? [possibly], types [ext4]
+[2018-06-29T22:12:30,727][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [483.3mb], compressed ordinary object pointers [true]
+[2018-06-29T22:12:30,882][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-06-29T22:12:30,889][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[11379], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.4.0-128-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2018-06-29T22:13:04,636][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-06-29T22:13:04,759][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda4)]], net usable_space [2.8gb], net total_space [36.1gb], spins? [possibly], types [ext4]
+[2018-06-29T22:13:04,760][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [483.3mb], compressed ordinary object pointers [true]
+[2018-06-29T22:13:04,902][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-06-29T22:13:04,905][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[11454], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.4.0-128-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2018-06-29T22:13:11,453][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-06-29T22:13:11,700][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda4)]], net usable_space [2.8gb], net total_space [36.1gb], spins? [possibly], types [ext4]
+[2018-06-29T22:13:11,701][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [483.3mb], compressed ordinary object pointers [true]
+[2018-06-29T22:13:11,860][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-06-29T22:13:11,862][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[11520], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.4.0-128-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2018-06-29T22:18:00,910][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-06-29T22:18:01,027][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda4)]], net usable_space [2.8gb], net total_space [36.1gb], spins? [possibly], types [ext4]
+[2018-06-29T22:18:01,028][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [483.3mb], compressed ordinary object pointers [true]
+[2018-06-29T22:18:01,108][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-06-29T22:18:01,111][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[11992], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.4.0-128-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2018-06-29T22:18:03,514][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [aggs-matrix-stats]
+[2018-06-29T22:18:03,514][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [ingest-common]
+[2018-06-29T22:18:03,515][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-expression]
+[2018-06-29T22:18:03,515][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-groovy]
+[2018-06-29T22:18:03,515][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-mustache]
+[2018-06-29T22:18:03,515][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-painless]
+[2018-06-29T22:18:03,515][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [percolator]
+[2018-06-29T22:18:03,515][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [reindex]
+[2018-06-29T22:18:03,515][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty3]
+[2018-06-29T22:18:03,515][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty4]
+[2018-06-29T22:18:03,516][INFO ][o.e.p.PluginsService     ] [Z417L_e] no plugins loaded
+[2018-06-29T22:18:07,912][INFO ][o.e.n.Node               ] [Z417L_e] initialized
+[2018-06-29T22:18:07,912][INFO ][o.e.n.Node               ] [Z417L_e] starting ...
+[2018-06-29T22:18:08,369][INFO ][o.e.t.TransportService   ] [Z417L_e] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-06-29T22:18:08,377][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-06-29T22:18:11,486][INFO ][o.e.c.s.ClusterService   ] [Z417L_e] new_master {Z417L_e}{Z417L_eWTuWekqjU44BSpg}{nHSqZLXoTMCHDM9I9HenBA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-06-29T22:18:11,590][INFO ][o.e.h.HttpServer         ] [Z417L_e] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-06-29T22:18:11,590][INFO ][o.e.n.Node               ] [Z417L_e] started
+[2018-06-29T22:18:13,253][INFO ][o.e.g.GatewayService     ] [Z417L_e] recovered [12] indices into cluster_state
+[2018-06-29T22:18:28,231][INFO ][o.e.c.r.a.AllocationService] [Z417L_e] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[kandy][2]] ...]).
+[2018-06-29T22:18:41,616][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:18:41,617][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:19:11,727][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:19:41,778][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:19:41,778][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:20:11,825][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:20:41,871][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:20:41,877][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:21:04,654][INFO ][o.e.n.Node               ] [Z417L_e] stopping ...
+[2018-06-29T22:21:04,728][INFO ][o.e.n.Node               ] [Z417L_e] stopped
+[2018-06-29T22:21:04,729][INFO ][o.e.n.Node               ] [Z417L_e] closing ...
+[2018-06-29T22:21:04,737][INFO ][o.e.n.Node               ] [Z417L_e] closed
+[2018-06-29T22:22:11,130][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-06-29T22:22:11,271][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] using [1] data paths, mounts [[/ (/dev/sda4)]], net usable_space [2.8gb], net total_space [36.1gb], spins? [possibly], types [ext4]
+[2018-06-29T22:22:11,271][INFO ][o.e.e.NodeEnvironment    ] [Z417L_e] heap size [483.3mb], compressed ordinary object pointers [true]
+[2018-06-29T22:22:11,384][INFO ][o.e.n.Node               ] [Z417L_e] node name [Z417L_e] derived from node ID; set [node.name] to override
+[2018-06-29T22:22:11,387][INFO ][o.e.n.Node               ] [Z417L_e] version[5.0.2], pid[12523], build[f6b4951/2016-11-24T10:07:18.101Z], OS[Linux/4.4.0-128-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2018-06-29T22:22:12,305][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [aggs-matrix-stats]
+[2018-06-29T22:22:12,305][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [ingest-common]
+[2018-06-29T22:22:12,306][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-expression]
+[2018-06-29T22:22:12,306][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-groovy]
+[2018-06-29T22:22:12,306][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-mustache]
+[2018-06-29T22:22:12,306][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [lang-painless]
+[2018-06-29T22:22:12,306][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [percolator]
+[2018-06-29T22:22:12,306][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [reindex]
+[2018-06-29T22:22:12,306][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty3]
+[2018-06-29T22:22:12,306][INFO ][o.e.p.PluginsService     ] [Z417L_e] loaded module [transport-netty4]
+[2018-06-29T22:22:12,307][INFO ][o.e.p.PluginsService     ] [Z417L_e] no plugins loaded
+[2018-06-29T22:22:16,209][INFO ][o.e.n.Node               ] [Z417L_e] initialized
+[2018-06-29T22:22:16,210][INFO ][o.e.n.Node               ] [Z417L_e] starting ...
+[2018-06-29T22:22:16,611][INFO ][o.e.t.TransportService   ] [Z417L_e] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-06-29T22:22:16,630][WARN ][o.e.b.BootstrapCheck     ] [Z417L_e] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-06-29T22:22:19,837][INFO ][o.e.c.s.ClusterService   ] [Z417L_e] new_master {Z417L_e}{Z417L_eWTuWekqjU44BSpg}{NZbJFMXPR6KDnitAnpiJzA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-06-29T22:22:19,899][INFO ][o.e.h.HttpServer         ] [Z417L_e] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-06-29T22:22:19,902][INFO ][o.e.n.Node               ] [Z417L_e] started
+[2018-06-29T22:22:21,325][INFO ][o.e.g.GatewayService     ] [Z417L_e] recovered [12] indices into cluster_state
+[2018-06-29T22:22:33,005][INFO ][o.e.c.r.a.AllocationService] [Z417L_e] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[kandy][4], [kandy][0]] ...]).
+[2018-06-29T22:22:49,960][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:22:49,963][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:23:20,020][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:23:50,066][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:23:50,066][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:24:20,170][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:24:50,221][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:24:50,221][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:25:20,259][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:25:50,304][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:25:50,305][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:26:20,358][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:26:50,439][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:26:50,439][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:27:20,470][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:27:50,504][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:27:50,504][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:28:20,520][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:28:50,542][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:28:50,542][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:29:20,584][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:29:50,631][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:29:50,632][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:30:20,655][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:30:50,677][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:30:50,678][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:31:20,719][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:31:50,762][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:31:50,763][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:32:20,799][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:32:50,834][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:32:50,834][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:33:20,866][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:33:50,890][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:33:50,890][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:34:20,934][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:34:50,985][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:34:50,985][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:35:21,019][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:35:51,109][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:35:51,109][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:36:21,140][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:36:51,164][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:36:51,164][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:37:21,187][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:37:51,210][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:37:51,210][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:38:21,231][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:38:51,257][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:38:51,257][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:39:21,280][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:39:51,304][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:39:51,304][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:40:21,359][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:40:51,381][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:40:51,381][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:41:21,418][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:41:51,440][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:41:51,440][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:42:21,480][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:42:51,518][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:42:51,518][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:43:21,543][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:43:51,565][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:43:51,565][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:44:21,617][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:44:51,642][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:44:51,642][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:45:21,669][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:45:51,691][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:45:51,691][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:46:21,738][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:46:51,838][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:46:51,839][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:47:21,874][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:47:51,899][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:47:51,900][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:48:21,922][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:48:51,945][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:48:51,945][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:49:21,968][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:49:51,991][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:49:51,991][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:50:22,027][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:50:52,074][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:50:52,074][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:51:22,113][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:51:52,153][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:51:52,153][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:52:22,198][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:52:52,240][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:52:52,240][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:53:22,300][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:53:52,351][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:53:52,351][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:54:22,420][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:54:52,461][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:54:52,461][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:55:22,512][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:55:52,549][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:55:52,549][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:56:22,610][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:56:36,126][INFO ][o.e.c.m.MetaDataCreateIndexService] [Z417L_e] [fb] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2018-06-29T22:56:52,643][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:56:52,644][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:56:54,694][INFO ][o.e.c.m.MetaDataCreateIndexService] [Z417L_e] [fb] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2018-06-29T22:57:10,719][INFO ][o.e.c.m.MetaDataCreateIndexService] [Z417L_e] [fb] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2018-06-29T22:57:22,691][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:57:52,743][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:57:52,743][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:58:10,183][INFO ][o.e.c.m.MetaDataCreateIndexService] [Z417L_e] [fb] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2018-06-29T22:58:22,789][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:58:52,835][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:58:52,835][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T22:59:22,928][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:59:52,973][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T22:59:52,974][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:00:22,993][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:00:53,047][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:00:53,047][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:01:07,982][INFO ][o.e.c.m.MetaDataCreateIndexService] [Z417L_e] [fb] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2018-06-29T23:01:23,088][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:01:53,112][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:01:53,112][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:02:15,315][INFO ][o.e.c.m.MetaDataCreateIndexService] [Z417L_e] [fb] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2018-06-29T23:02:23,151][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:02:33,255][INFO ][o.e.c.m.MetaDataCreateIndexService] [Z417L_e] [fb] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2018-06-29T23:02:34,586][INFO ][o.e.c.m.MetaDataMappingService] [Z417L_e] [fb/k50nnep9SuG9f6qktye4Dg] create_mapping [tweet]
+[2018-06-29T23:02:53,182][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:02:53,182][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:03:23,209][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:03:53,251][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:03:53,251][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:04:23,292][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:04:53,329][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:04:53,329][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:05:06,432][INFO ][o.e.c.m.MetaDataCreateIndexService] [Z417L_e] [fb] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2018-06-29T23:05:07,654][INFO ][o.e.c.m.MetaDataMappingService] [Z417L_e] [fb/WLk8cU7QTt-Jycx45BKqEQ] create_mapping [tweet]
+[2018-06-29T23:05:23,357][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:05:53,375][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:05:53,376][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:06:23,398][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:06:53,425][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:06:53,426][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:07:23,494][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:07:53,521][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:07:53,521][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:08:23,599][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:08:53,647][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:08:53,648][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:09:23,687][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:09:53,728][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:09:53,728][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:10:23,750][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:10:53,774][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:10:53,774][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:11:23,795][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:11:48,232][INFO ][o.e.c.m.MetaDataCreateIndexService] [Z417L_e] [fb] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2018-06-29T23:11:49,443][INFO ][o.e.c.m.MetaDataMappingService] [Z417L_e] [fb/ia5THxW6RtGqn6_xNlG7bA] create_mapping [tweet]
+[2018-06-29T23:11:53,847][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:11:53,848][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:12:23,886][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:12:49,107][INFO ][o.e.c.m.MetaDataCreateIndexService] [Z417L_e] [fb] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2018-06-29T23:12:52,219][INFO ][o.e.c.m.MetaDataMappingService] [Z417L_e] [fb/SWt0UiB3QFaVeWtD2DxAyA] create_mapping [tweet]
+[2018-06-29T23:12:53,927][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:12:53,927][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:13:23,954][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:13:54,004][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:13:54,005][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:14:24,092][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:14:27,510][INFO ][o.e.c.m.MetaDataCreateIndexService] [Z417L_e] [fb] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2018-06-29T23:14:28,906][INFO ][o.e.c.m.MetaDataMappingService] [Z417L_e] [fb/YS4erq8DTWa8kuRfj0mKtA] create_mapping [tweet]
+[2018-06-29T23:14:54,115][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:14:54,115][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:15:24,138][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:15:54,185][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:15:54,185][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:16:24,272][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:16:54,288][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:16:54,288][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:17:24,346][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:17:54,411][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:17:54,411][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:18:24,433][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:18:54,496][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:18:54,496][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:19:24,548][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:19:54,598][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:19:54,598][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:20:24,622][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:20:54,664][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:20:54,664][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:21:24,680][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.6gb[7.4%], shards will be relocated away from this node
+[2018-06-29T23:21:54,740][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.3gb[6.3%], shards will be relocated away from this node
+[2018-06-29T23:21:54,789][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:22:24,809][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 1.9gb[5.4%], shards will be relocated away from this node
+[2018-06-29T23:22:54,832][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 1.9gb[5.4%], shards will be relocated away from this node
+[2018-06-29T23:22:54,929][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:23:24,950][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 1.9gb[5.4%], shards will be relocated away from this node
+[2018-06-29T23:23:54,972][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 1.9gb[5.4%], shards will be relocated away from this node
+[2018-06-29T23:23:54,973][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:24:24,996][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 1.9gb[5.4%], shards will be relocated away from this node
+[2018-06-29T23:24:55,019][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 1.9gb[5.4%], shards will be relocated away from this node
+[2018-06-29T23:24:55,019][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:25:25,065][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 1.9gb[5.4%], shards will be relocated away from this node
+[2018-06-29T23:25:55,087][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 1.9gb[5.4%], shards will be relocated away from this node
+[2018-06-29T23:25:55,087][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:26:25,106][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:26:55,129][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:26:55,135][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:27:25,195][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:27:55,239][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:27:55,240][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:28:25,629][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:28:55,672][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:28:55,672][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:29:30,473][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:30:02,619][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:30:02,651][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:30:36,685][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:31:09,130][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:31:09,171][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:31:39,777][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:32:09,892][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:32:09,892][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:32:40,253][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:33:10,401][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:33:10,401][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:33:40,906][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:34:11,528][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:34:11,528][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:34:41,913][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:35:21,443][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:35:21,658][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:35:52,022][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:36:24,529][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:36:24,546][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:36:54,867][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:37:25,003][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:37:25,003][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:37:55,275][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:38:25,796][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:38:25,796][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:38:56,563][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:39:26,939][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:39:26,940][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:40:20,771][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:40:32,822][WARN ][o.e.m.j.JvmGcMonitorService] [Z417L_e] [gc][young][4650][9] duration [19.6s], collections [1]/[20.5s], total [19.6s]/[19.8s], memory [251.2mb]->[118.9mb]/[483.3mb], all_pools {[young] [132.6mb]->[609.9kb]/[133.3mb]}{[survivor] [6.8mb]->[6.7mb]/[16.6mb]}{[old] [111.7mb]->[111.7mb]/[333.3mb]}
+[2018-06-29T23:40:35,907][WARN ][o.e.m.j.JvmGcMonitorService] [Z417L_e] [gc][4650] overhead, spent [19.6s] collecting in the last [20.5s]
+[2018-06-29T23:40:51,647][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:40:51,648][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:41:22,237][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:41:52,311][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:41:52,311][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:42:22,378][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:42:52,855][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:42:52,920][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:43:23,050][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:43:53,140][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:43:53,140][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:44:23,342][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:44:53,472][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:44:53,473][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:45:27,468][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:45:58,173][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:45:58,291][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:46:51,582][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:47:24,360][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:47:24,544][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:48:01,209][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:48:31,571][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:48:31,856][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:49:02,065][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:49:32,144][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:49:32,144][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:50:02,978][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:50:33,087][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:50:33,088][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:51:04,027][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:51:34,435][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:51:34,435][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:52:04,931][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:52:35,210][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:52:35,210][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:53:06,414][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:53:37,230][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.7%], shards will be relocated away from this node
+[2018-06-29T23:53:37,230][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:54:07,662][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:54:37,763][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:54:37,763][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:55:07,886][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:55:38,098][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:55:38,098][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:56:08,237][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:56:38,336][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:56:38,364][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:57:08,466][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:57:38,578][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:57:38,578][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:58:08,870][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:58:39,181][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:58:39,182][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-06-29T23:59:09,280][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:59:39,720][WARN ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] high disk watermark [90%] exceeded on [Z417L_eWTuWekqjU44BSpg][Z417L_e][/home/isura/Documents/FYP/pipeline/elasticsearch-5.0.2/data/nodes/0] free: 2.8gb[7.8%], shards will be relocated away from this node
+[2018-06-29T23:59:39,720][INFO ][o.e.c.r.a.DiskThresholdMonitor] [Z417L_e] rerouting shards: [high disk watermark exceeded on one or more nodes]
