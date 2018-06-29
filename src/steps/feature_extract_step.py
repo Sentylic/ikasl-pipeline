@@ -5,7 +5,7 @@ from os import chdir, getcwd
 
 
 class FeatureExtractStep(_Step):
-    param_names = ['jar-path', 'tweet-frequency', 'in-place', 'query-params']
+    param_names = ['jar-path', 'tweet-frequency', 'query-params']
 
     def execute(self, in_dir):
         out_dir = self.get_out_dir(in_dir)
@@ -21,7 +21,7 @@ class FeatureExtractStep(_Step):
         return out_dir
 
     def validate_params(self):
-        return self.params['tweet-frequency'] in ['daily', 'weekly', 'monthly'] and self.params['in-place'] in ['True', 'False']
+        return self.params['tweet-frequency'] in ['daily', 'weekly', 'monthly']
 
     def get_out_dir(self, in_dir):
         return get_sibling_dir(in_dir, 'feature-extract-out')

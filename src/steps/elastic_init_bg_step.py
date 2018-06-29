@@ -6,6 +6,7 @@ import utils
 
 
 class ElasticInitBGStep(_BGStep):
+    param_names = ['kill_at_end']
     default_output_f = '../out/elastic_out'
 
     def run_bg(self, in_dir=None):
@@ -25,14 +26,19 @@ class ElasticInitBGStep(_BGStep):
             return 'WARNING: Failed to initialize elasticsearch. elasticsearch is already running.'
 
     def finalize(self, in_dir=None):
-        pid = self.elastic_pid()
-        if pid > 0:
+        if hasattr(self, 'output_f'):
             self.output_f.close()
-            psutil.Process(pid).terminate()
-            return 'Elastic search terminated. The stdout is at {}'.format(
-                self.output_f_name)
-        else:
-            return 'WARNING: Failed to kill elasticsearch. elasticsearch is not running.'
+        if self.params['kill_at_end']:
+            pid = self.elastic_pid()
+            if pid > 0:
+                psutil.Process(pid).terminate()
+                if hasattr(self, 'output_f_name'):
+                    return 'Elastic search terminated. The stdout is at {}'.format(
+                        self.output_f_name)
+                else:
+                    return 'Elastic search terminated'
+            else:
+                return 'WARNING: Failed to kill elasticsearch. elasticsearch is not running.'
 
     def elastic_pid(self):
         for pid in psutil.pids():
@@ -41,5 +47,7 @@ class ElasticInitBGStep(_BGStep):
                     return pid
         return -1
 
+    def validate_params(self):
+        return self.params['kill_at_end'] in [True, False]
 
 __all__ = ['ElasticInitBGStep']

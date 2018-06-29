@@ -5,7 +5,7 @@ from os import chdir, getcwd
 
 
 class IKASLStep(_Step):
-    param_names = ['jar-path', 'additional-args', 'in-place', 'tweet-frequency']
+    param_names = ['jar-path', 'additional-args', 'tweet-frequency']
 
     def execute(self, in_dir):
         out_dir = self.get_out_dir(in_dir)
@@ -20,7 +20,7 @@ class IKASLStep(_Step):
         return out_dir
 
     def validate_params(self):
-        valid = self.params['in-place'] in ['True', 'False'] and self.params['tweet-frequency'] in ['daily', 'weekly', 'monthly']
+        valid = self.params['tweet-frequency'] in ['daily', 'weekly', 'monthly']
         valid_addtional_arg_names = ['a', 'ansttrn', 'ansttst', 'dfunc', 'dmdt', 'f', 'fd', 'htf', 'it', 'mn', 'mnot', 'mnt', 'mxfunc', 'mxn', 'ns', 'nsi', 'nti', 'nwts', 'sf', 'tdt',
                                      '-alpha', '-aggregate-node-selection-threshold-training', '-aggregate-node-selection-threshold-testing', '-distance-func', '-doc-matching-distance-threshold', '-frequency', '-fd', '-hit-threshold-frac', '-init-type', '-merge-nodes', '-merge-nodes-overlap-threshold', '-merge-nodes-threshold', '-max-aggregation-func', '-max-nodes', '-neighborhood-size', '-no-smoothing-iter', '-no-training-iter', '-no-words-to-show', '-spread-factor', '-topic-discontinuity-threshold'
                                      ]

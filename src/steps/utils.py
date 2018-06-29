@@ -22,11 +22,10 @@ def _call(popen_args, callback, stdout=None):
     return thread
 
 def call(command, stdout=None):
+    print '\ncalling {}'.format(command)
     event = threading.Event()
     _call([command.split()], callback=event.set, stdout=stdout)
     event.wait()
 
 def call_background(command, stdout=None):
     _call([command.split()], callback=lambda: None, stdout=stdout)
-
-__all__ = ['call', 'call_background']

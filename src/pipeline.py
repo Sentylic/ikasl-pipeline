@@ -11,7 +11,7 @@ class PipeLine():
         self.steps = []
         self.bg_steps = []
         self.log_params_to_file = log_params_to_file
-        self.pipe_id = datetime.datetime.now().strftime('%Y-%m-%d_%H:%M-%S')
+        self.pipe_id = datetime.datetime.now().strftime('%Y-%m-%d_%H:%M:%S')
         self._create_working_dir()
 
     def add_pipe(self, step):
@@ -22,6 +22,7 @@ class PipeLine():
     def add_bg_step(self, bg_step):
         bg_step.pipe_id = self.pipe_id
         self.bg_steps.append(bg_step)
+        return self
 
     def run(self, in_dir):
         self.start_bg_processes()
