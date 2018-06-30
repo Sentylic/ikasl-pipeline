@@ -13,8 +13,9 @@ class FeatureExtractStep(_Step):
         curr_dir = getcwd()
         chdir(get_prev_dir(self.params['jar-path']))
 
+        self.params['query-params'] = [s.replace(' ', '@') for s in self.params['query-params']]
         feature_extract_command = 'java -cp {} ExtractFeatures -f {} -p {} -q {}'.format(
-            self.params['jar-path'].split('/')[-1], self.params['tweet-frequency'], out_dir, ' '.join(self.params['query-params']))
+            self.params['jar-path'].split('/')[-1], self.params['tweet-frequency'], out_dir, ','.join(self.params['query-params']))
         call(feature_extract_command)
 
         chdir(curr_dir)

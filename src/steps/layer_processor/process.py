@@ -39,7 +39,7 @@ def process_layers(time_stamps, data_path, out_dir, out_file_id):
                 topic = ""
 
                 for word in top_words:
-                    topic += vocab[word] + " "
+                    topic += vocab[word] + " | "
 
                 result = {}
                 result['id'] = id
@@ -47,7 +47,8 @@ def process_layers(time_stamps, data_path, out_dir, out_file_id):
                 result['text'] = topic
                 result['sentiment'] = random.randint(-2, 2)
                 result['emotion'] = emotions[random.randint(0, len(emotions)-1)]
-                result['time'] = time_stamps[layer]
+                result['time'] = int(datetime.datetime.strptime(
+                    time_stamps[layer], '%Y-%m-%d').strftime('%s'))
                 result['location'] = "dummy"
                 result = json.dumps(result)
 

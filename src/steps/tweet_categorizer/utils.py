@@ -25,6 +25,9 @@ def group_by_1000s(created_dirs):
                 with open(output_file, 'w') as output_f:
                     output_f.writelines(chunk)
 
+def get_time_stamp(dt_str, dt_format):
+    return int(datetime.strptime(dt_str, dt_format).strftime('%s'))
+
 def get_week(date_str):
     dt = datetime.strptime(date_str, '%Y-%m-%d')
     start = dt - timedelta(days=dt.weekday())

@@ -27,6 +27,7 @@ class LayerProcessStep(_Step):
             with open(layer_fname, 'r') as layer_f:
                 time_stamp = json.load(layer_f)['label']
                 time_stamps.append(time_stamp)
+        time_stamps.sort()
         return time_stamps
 
     def validate_params(self):

@@ -1,28 +1,29 @@
 import argparse
 import utils
 from scraped_tweet_json_parser import ScrapedTweetJsonParser
-from scraped_tweet_parser import ScrapedTweetParser
+from scraped_tweet_csv_parser import ScrapedTweetCsvParser
 
 class Parser:
-    def __init__(self, tweet_format, tweet_frequency, input_dir, out_dir):
+    def __init__(self, tweet_format, tweet_frequency, input_dir, out_dir, ignore_before='1970-1-1'):
         self.tweet_format = tweet_format
         self.tweet_frequency = utils.to_enum(tweet_frequency)
         self.input_dir = input_dir
         self.out_dir = out_dir
+        self.ignore_before = ignore_before
 
     def parse(self):
         if self.tweet_format == 'json':
             created_dirs = set()
             for input_file in utils.get_all_files_in_dir(self.input_dir):
                 print 'Processing', input_file
-                parser = ScrapedTweetJsonParser(self.out_dir, input_file, self.tweet_frequency)
+                parser = ScrapedTweetJsonParser(self.out_dir, input_file, self.tweet_frequency, self.ignore_before)
                 created_dirs.update(parser.parse())
             utils.group_by_1000s(created_dirs)
         elif self.tweet_format == 'csv':
             created_dirs = set()
             for input_file in utils.get_all_files_in_dir(self.input_dir):
                 print 'Processing', input_file
-                parser = ScrapedTweetParser(self.out_dir, input_file, self.tweet_frequency)
+                parser = ScrapedTweetCsvParser(self.out_dir, input_file, self.tweet_frequency, self.ignore_before)
                 created_dirs.update(parser.parse())
             utils.group_by_1000s(created_dirs)
 

@@ -2,7 +2,7 @@ from step import _Step
 from utils import call
 from os import chdir, getcwd, listdir
 from os.path import isfile, join
-from shutil import copy
+from shutil import copyfile
 
 
 class ElasticFeedStep(_Step):
@@ -15,7 +15,7 @@ class ElasticFeedStep(_Step):
                 break
 
         visualizer_data_path = '../visualizer/Data/'
-        copy(join(in_dir, out_json), visualizer_data_path)
+        copyfile(join(in_dir, out_json), visualizer_data_path + self.params['dataset-name'] + '.json')
 
         curr_dir = getcwd()
         chdir(visualizer_data_path)
@@ -25,14 +25,14 @@ class ElasticFeedStep(_Step):
         cmd1 = 'curl -XPUT localhost:9200/{}?pretty -H Content-Type:application/json'.format(
             self.params['dataset-name'])
         cmd2 = 'curl -XPOST http://localhost:9200/{}/_bulk?pretty -H "Content-Type:application/x-ndjson" --data-binary @{}'.format(
-            self.params['dataset-name'], out_json)
+            self.params['dataset-name'], self.params['dataset-name'] + '.json')
 
         with open('curl-out-{}'.format(self.pipe_id), 'w') as out_f:
             call(cmd0)  # set stdout=out_f if wanted
             call(cmd1)  # set stdout=out_f if wanted
             call(cmd2, stdout=out_f)
 
-        print '\nData fed to elastic server. Open http://localhost:3000/{}/graph.html'.format(
+        print '\nData fed to elastic server. Open http://localhost:3000/tweets/{}'.format(
             self.params['dataset-name'])
 
         chdir(curr_dir)

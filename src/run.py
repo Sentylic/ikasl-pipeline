@@ -9,19 +9,27 @@ if __name__ == '__main__':
     pipeline.add_pipe(TweetBinStep(
         {
             'tweet-frequency': 'daily',
-            'tweet-format': 'json'
+            'tweet-format': 'csv',
+            'ignore-before': '2017-01-01'
         }))
     pipeline.add_pipe(FeatureExtractStep(
         {
             'jar-path': '../jars/TextFeatureExtractor.jar',
             'tweet-frequency': 'daily',
-            'query-params': ["facebook", "delete", "fb", "deletefacebook"]}))
+            'query-params': [
+                'lka',
+                'sri lanka', 'srilanka',
+                'flag', 'celebration',
+            ]
+        }))
     pipeline.add_pipe(IKASLStep(
         {
             'jar-path': '../jars/IKASL.jar',
             'tweet-frequency': 'daily',
-            'additional-args': {'htf': 0.0025}
+            'additional-args': {'htf': 0.02, '-max-nodes': 8}
         }))
     pipeline.add_pipe(LayerProcessStep({'tweet-frequency': 'daily'}))
-    pipeline.add_pipe(ElasticFeedStep({'dataset-name': 'fb'}))
-    pipeline.run('../data/1')
+    pipeline.add_pipe(ElasticFeedStep({'dataset-name': 'lka'}))
+    # pipeline.run('../out/pipe_out/feature-extract-out')
+    # pipeline.run('../out/pipe_out/ikasl-out')
+    pipeline.run('../data/lka')

@@ -3,6 +3,7 @@ from utils import call_background, get_abs_path
 import os
 import psutil
 import utils
+import time
 
 
 class VisualizerInitBGStep(_BGStep):
@@ -18,8 +19,12 @@ class VisualizerInitBGStep(_BGStep):
             self.output_f_name = '{}/stdout-{}'.format(
                 self.params['output_dir'], self.pipe_id)
             self.output_f = open(self.output_f_name, 'w')
-            cmd_name = 'node ../visualizer/index.js'
+            self.initial_cwd = os.getcwd()
+            os.chdir('../visualizer')
+            cmd_name = 'node index.js'
             call_background(cmd_name, stdout=self.output_f)
+            time.sleep(2)
+            os.chdir(self.initial_cwd)
             return 'Visualizing server initialized. The stdout is at {}'.format(
                 self.output_f_name)
         else:

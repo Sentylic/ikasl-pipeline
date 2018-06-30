@@ -7,9 +7,10 @@ class TweetBinStep(_Step):
     param_names = ['tweet-format', 'tweet-frequency']
 
     def execute(self, in_dir):
-        print('')
+        if not 'ignore-before' in self.params:
+            self.params['ignore-before'] = '1970-1-1'
         parser = Parser(
-            self.params['tweet-format'], self.params['tweet-frequency'], in_dir, self.get_out_dir(in_dir))
+            self.params['tweet-format'], self.params['tweet-frequency'], in_dir, self.get_out_dir(in_dir), self.params['ignore-before'])
         parser.parse()
         return parser.out_dir
 
