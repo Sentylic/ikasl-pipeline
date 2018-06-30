@@ -2,6 +2,7 @@
 .vscode
 
 data/*
+!data/1
 !data/.gitkeep
 
 out/*
