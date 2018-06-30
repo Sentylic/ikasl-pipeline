@@ -3,6 +3,7 @@
 
 data/*
 !data/1
+!data/lka
 !data/.gitkeep
 
 out/*

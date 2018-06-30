@@ -1,5 +1,6 @@
 import json
 import utils
+import re
 
 
 class ScrapedTweetJsonParser:
@@ -15,7 +16,9 @@ class ScrapedTweetJsonParser:
             created_dirs = set()
             for data_json_str in tweets:
                 data_json = json.loads(data_json_str)
-                tweet = data_json['content']
+                tweet = re.sub(r'<Emoji:(.*?)>', '', data_json['content'])
+                tweet = re.sub(
+                    r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', '', tweet)
                 date = data_json['date']
                 if self._ignore_date(date):
                     out_dir = self._dir_name(date)

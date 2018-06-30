@@ -1,0 +1,364 @@
+{"index": {"_type": "tweet", "_id": "0"}}
+{"emotion": "happy", "sentiment": 2, "parent": 0, "text": "tesla spacex facebook page elon musk response elonmusk deletefacebook boycott zuckerberg elonmusk elonmusk abc news perfile ", "location": "dummy", "time": 1521743400, "id": 0}
+{"index": {"_type": "tweet", "_id": "1"}}
+{"emotion": "fear", "sentiment": 2, "parent": 1, "text": "tesla spacex page elon musk deletefacebook effort bot porn account deletefacebook hashtag cryptocurrency hustler deletefacebook highlight blockchain blockchain http ", "location": "dummy", "time": 1521743400, "id": 1}
+{"index": {"_type": "tweet", "_id": "2"}}
+{"emotion": "fear", "sentiment": -2, "parent": 2, "text": "account assange megalomaniac http website technology aspire world news people megalomaniac info movement ", "location": "dummy", "time": 1521743400, "id": 2}
+{"index": {"_type": "tweet", "_id": "3"}}
+{"emotion": "angry", "sentiment": 2, "parent": 3, "text": "company brian acton 19 billion today people issue country deletefacebook http privacy work cambridgeanalytica ", "location": "dummy", "time": 1521743400, "id": 3}
+{"index": {"_type": "tweet", "_id": "4"}}
+{"emotion": "sad", "sentiment": 0, "parent": 4, "text": "friend user profile elonmusk account step family timeline touch info zuckerberg ", "location": "dummy", "time": 1521743400, "id": 4}
+{"index": {"_type": "tweet", "_id": "5"}}
+{"emotion": "fear", "sentiment": 1, "parent": 5, "text": "tear emoji joy emoji joy face floor rolling deletefacebook campaign mind time twitter ", "location": "dummy", "time": 1521743400, "id": 5}
+{"index": {"_type": "tweet", "_id": "6"}}
+{"emotion": "sad", "sentiment": -2, "parent": 6, "text": "page elonmusk tesla spacex emoji flushed face elon musk google million p gina trump ", "location": "dummy", "time": 1521743400, "id": 6}
+{"index": {"_type": "tweet", "_id": "7"}}
+{"emotion": "happy", "sentiment": -1, "parent": 7, "text": "hand emoji access deletefacebook emoji deletefacebook http lot face thumb time fire emoji sign ", "location": "dummy", "time": 1521743400, "id": 7}
+{"index": {"_type": "tweet", "_id": "8"}}
+{"emotion": "fear", "sentiment": -2, "parent": 8, "text": "twitter elon emoji face people time stuck-out tongue elonmusk whatsapp co-founder pile facebook page ", "location": "dummy", "time": 1521743400, "id": 8}
+{"index": {"_type": "tweet", "_id": "9"}}
+{"emotion": "happy", "sentiment": -2, "parent": 9, "text": "end face emoji sunglasses world mark rest spacex sunglasses emoji beginning deletefacebook campaign ", "location": "dummy", "time": 1521743400, "id": 9}
+{"index": {"_type": "tweet", "_id": "10"}}
+{"emotion": "happy", "sentiment": -2, "parent": 10, "text": "instagram whatsapp elon musk tesla year build jointron chance space x account number ", "location": "dummy", "time": 1521743400, "id": 10}
+{"index": {"_type": "tweet", "_id": "11"}}
+{"emotion": "sad", "sentiment": 1, "parent": 11, "text": "account assange week cambridge analytica analyst megalomaniac life technology washington post people dip ", "location": "dummy", "time": 1521743400, "id": 11}
+{"index": {"_type": "tweet", "_id": "12"}}
+{"emotion": "excited", "sentiment": 1, "parent": 12, "text": "day jail identitythieve identity sell myspace russia life phone choice video year ", "location": "dummy", "time": 1521743400, "id": 12}
+{"index": {"_type": "tweet", "_id": "13"}}
+{"emotion": "excited", "sentiment": 0, "parent": 13, "text": "platform deletefacebook trend people tesla spacex musk zuckerberg deletefacebook movement elon musk time fb page ", "location": "dummy", "time": 1521743400, "id": 13}
+{"index": {"_type": "tweet", "_id": "14"}}
+{"emotion": "sad", "sentiment": 0, "parent": 14, "text": "face emoji facebook account open mouth eye deletefacebook emoji people elon musk cold sweat tesla tightly-closed eye ", "location": "dummy", "time": 1521743400, "id": 14}
+{"index": {"_type": "tweet", "_id": "15"}}
+{"emotion": "excited", "sentiment": -2, "parent": 15, "text": "elon musk spacex tesla deletefacebook movement deletefacebook http facebook page elonmusk deletefacebook bandwagon tesla page news google light ", "location": "dummy", "time": 1521743400, "id": 15}
+{"index": {"_type": "tweet", "_id": "16"}}
+{"emotion": "fear", "sentiment": 1, "parent": 16, "text": "barrage tweet tweets http thumb sign york time emoji mark zuckerberg tesla mine nytime ", "location": "dummy", "time": 1521743400, "id": 16}
+{"index": {"_type": "tweet", "_id": "17"}}
+{"emotion": "fear", "sentiment": -2, "parent": 1, "text": "apple blockchain google point news topic launch event social interaction article people ", "location": "dummy", "time": 1522089000, "id": 17}
+{"index": {"_type": "tweet", "_id": "18"}}
+{"emotion": "happy", "sentiment": 1, "parent": 0, "text": "zuckerberg elonmusk facebook page people user deletefacebook http congress time year tesla hard truth ", "location": "dummy", "time": 1522089000, "id": 18}
+{"index": {"_type": "tweet", "_id": "19"}}
+{"emotion": "sad", "sentiment": 2, "parent": 19, "text": "realdonaldtrump qanon potu qanon petitions whitehouse opinion crisis newsfeed failure threat 10 day member 70 billion ", "location": "dummy", "time": 1522089000, "id": 19}
+{"index": {"_type": "tweet", "_id": "20"}}
+{"emotion": "angry", "sentiment": -2, "parent": 10, "text": "instagram whatsapp people twitter emoji rolling eye life face request company reason ", "location": "dummy", "time": 1522089000, "id": 20}
+{"index": {"_type": "tweet", "_id": "21"}}
+{"emotion": "excited", "sentiment": -2, "parent": 9, "text": "end world face mark month emoji sunglasses www newsweek year rest hey ", "location": "dummy", "time": 1522089000, "id": 21}
+{"index": {"_type": "tweet", "_id": "22"}}
+{"emotion": "excited", "sentiment": 0, "parent": 8, "text": "emoji face twitter shit message open mouth people time hashtag eye backhand index ", "location": "dummy", "time": 1522089000, "id": 22}
+{"index": {"_type": "tweet", "_id": "23"}}
+{"emotion": "angry", "sentiment": 1, "parent": 7, "text": "lot hand law access people middle finger emoji time money team account ", "location": "dummy", "time": 1522089000, "id": 23}
+{"index": {"_type": "tweet", "_id": "24"}}
+{"emotion": "happy", "sentiment": 1, "parent": 15, "text": "deletefacebook movement deletefacebook http internetbillofright strong reminder free service elon musk spacex free http naturalnew light playboy ", "location": "dummy", "time": 1522089000, "id": 24}
+{"index": {"_type": "tweet", "_id": "25"}}
+{"emotion": "sad", "sentiment": 0, "parent": 6, "text": "privacy google million trump people facebook user information ceo obama place call log ", "location": "dummy", "time": 1522089000, "id": 25}
+{"index": {"_type": "tweet", "_id": "26"}}
+{"emotion": "angry", "sentiment": 1, "parent": 14, "text": "facebook account eye face deletefacebook emoji email phone emoji facebook profile deletefacebook http advantage phone call ", "location": "dummy", "time": 1522089000, "id": 26}
+{"index": {"_type": "tweet", "_id": "27"}}
+{"emotion": "sad", "sentiment": -2, "parent": 16, "text": "mark zuckerberg thumb sign barrage emoji deletefacebook http people tweet youtube destyy congress ", "location": "dummy", "time": 1522089000, "id": 27}
+{"index": {"_type": "tweet", "_id": "28"}}
+{"emotion": "fear", "sentiment": 2, "parent": 5, "text": "tear emoji joy emoji joy face floor rolling deletefacebook emoji mind joy deletefacebook joy http ", "location": "dummy", "time": 1522089000, "id": 28}
+{"index": {"_type": "tweet", "_id": "29"}}
+{"emotion": "happy", "sentiment": 0, "parent": 13, "text": "people time elon musk deletefacebook trend tesla platform facebook account deletefacebook http musk user worldwide ", "location": "dummy", "time": 1522089000, "id": 29}
+{"index": {"_type": "tweet", "_id": "30"}}
+{"emotion": "fear", "sentiment": -2, "parent": 4, "text": "friend user step info family contact privacy profile deletefacebook http account touch ", "location": "dummy", "time": 1522089000, "id": 30}
+{"index": {"_type": "tweet", "_id": "31"}}
+{"emotion": "fear", "sentiment": 2, "parent": 12, "text": "day video myspace www presse-citron election year victim people emoji choice google ", "location": "dummy", "time": 1522089000, "id": 31}
+{"index": {"_type": "tweet", "_id": "32"}}
+{"emotion": "sad", "sentiment": 2, "parent": 3, "text": "today social network facebook stock country company home issue sale work russia entrepreneur ", "location": "dummy", "time": 1522089000, "id": 32}
+{"index": {"_type": "tweet", "_id": "33"}}
+{"emotion": "angry", "sentiment": 2, "parent": 11, "text": "account cambridge analytica life people product week good time year chrissaad http free ", "location": "dummy", "time": 1522089000, "id": 33}
+{"index": {"_type": "tweet", "_id": "34"}}
+{"emotion": "angry", "sentiment": -1, "parent": 2, "text": "call phone text reason cambridgeanalytica information year business deletefacebook http fb account evidence ", "location": "dummy", "time": 1522089000, "id": 34}
+{"index": {"_type": "tweet", "_id": "35"}}
+{"emotion": "fear", "sentiment": 0, "parent": 35, "text": "dailycaller march fact facebook vuelve internet en medio noticia internetbillofright cinkciarz article deletefacebook http ", "location": "dummy", "time": 1522089000, "id": 35}
+{"index": {"_type": "tweet", "_id": "36"}}
+{"emotion": "excited", "sentiment": -1, "parent": 36, "text": "pioneer delete facebook markzuckerberg jaron lanier personal information process kind people don t nsa move ", "location": "dummy", "time": 1522089000, "id": 36}
+{"index": {"_type": "tweet", "_id": "37"}}
+{"emotion": "excited", "sentiment": -2, "parent": 30, "text": "friend user company face latest individual picture family people privacy commissioner spinoff info ", "location": "dummy", "time": 1522175400, "id": 37}
+{"index": {"_type": "tweet", "_id": "38"}}
+{"emotion": "happy", "sentiment": -1, "parent": 31, "text": "day video youtube playlist mind time guy app election facebook account end mobile phone ", "location": "dummy", "time": 1522175400, "id": 38}
+{"index": {"_type": "tweet", "_id": "39"}}
+{"emotion": "excited", "sentiment": -2, "parent": 32, "text": "today home company social network people 30 day work love deletefacebook http 110 billion deletefacebook movement ", "location": "dummy", "time": 1522175400, "id": 39}
+{"index": {"_type": "tweet", "_id": "40"}}
+{"emotion": "sad", "sentiment": 1, "parent": 33, "text": "account cambridge analytica life people product week advertiser cuenta perfile year technology ", "location": "dummy", "time": 1522175400, "id": 40}
+{"index": {"_type": "tweet", "_id": "41"}}
+{"emotion": "sad", "sentiment": 1, "parent": 17, "text": "apple google product customer money scandal article ton tool i ve event ", "location": "dummy", "time": 1522175400, "id": 41}
+{"index": {"_type": "tweet", "_id": "42"}}
+{"emotion": "excited", "sentiment": 0, "parent": 18, "text": "zuckerberg playboy user tesla deletefacebook http facebook page apple cher rest people dumb fuck ", "location": "dummy", "time": 1522175400, "id": 42}
+{"index": {"_type": "tweet", "_id": "43"}}
+{"emotion": "happy", "sentiment": 2, "parent": 43, "text": "playboy ferrell deletefacebook post deleting facebook comment su cuenta wsj bgr thought facebook http page ", "location": "dummy", "time": 1522175400, "id": 43}
+{"index": {"_type": "tweet", "_id": "44"}}
+{"emotion": "fear", "sentiment": -1, "parent": 44, "text": "oaxaca lorenamerino playboy latest brand recopilando la hemos libro de relevante del playboy deletefacebook strookt niet hun ", "location": "dummy", "time": 1522175400, "id": 44}
+{"index": {"_type": "tweet", "_id": "45"}}
+{"emotion": "angry", "sentiment": -1, "parent": 45, "text": "playboy latest ferrell thought www zerohedge deletefacebook http wednesday statement page daily dot backlash ", "location": "dummy", "time": 1522175400, "id": 45}
+{"index": {"_type": "tweet", "_id": "46"}}
+{"emotion": "sad", "sentiment": 0, "parent": 46, "text": "surprise s designed nightmare http nightmare tech part playboy deletefacebook privacy design 18 tip deletefacebook http ", "location": "dummy", "time": 1522175400, "id": 46}
+{"index": {"_type": "tweet", "_id": "47"}}
+{"emotion": "fear", "sentiment": -1, "parent": 28, "text": "joy relief agony despair tear emoji joy emoji floor rolling face mind ", "location": "dummy", "time": 1522175400, "id": 47}
+{"index": {"_type": "tweet", "_id": "48"}}
+{"emotion": "happy", "sentiment": -1, "parent": 29, "text": "time people platform elon musk tesla user spacex brand deletefacebook http facebook page facebook account ", "location": "dummy", "time": 1522175400, "id": 48}
+{"index": {"_type": "tweet", "_id": "49"}}
+{"emotion": "fear", "sentiment": -2, "parent": 24, "text": "deletefacebook movement playboy internetbillofright deletefacebook http spacex light tesla ferrell newsbyte joined free service ", "location": "dummy", "time": 1522175400, "id": 49}
+{"index": {"_type": "tweet", "_id": "50"}}
+{"emotion": "angry", "sentiment": -1, "parent": 25, "text": "google privacy data facebook people deletefacebook facebook million dylan curran trump thousand mozilla setting ", "location": "dummy", "time": 1522175400, "id": 50}
+{"index": {"_type": "tweet", "_id": "51"}}
+{"emotion": "fear", "sentiment": -1, "parent": 26, "text": "facebook account playboy deletefacebook emoji deletefacebook movement eye account consumer verge first expressionless face facebook brand ", "location": "dummy", "time": 1522175400, "id": 51}
+{"index": {"_type": "tweet", "_id": "52"}}
+{"emotion": "excited", "sentiment": 1, "parent": 27, "text": "thumb sign mark zuckerberg emoji youtube deletefacebook http guy barrage people tweet face ", "location": "dummy", "time": 1522175400, "id": 52}
+{"index": {"_type": "tweet", "_id": "53"}}
+{"emotion": "fear", "sentiment": -2, "parent": 53, "text": "playboy deletefacebook party mashable top story movimento deletefacebook war mile playboy latest firefox extension deletefacebook movement mind ", "location": "dummy", "time": 1522175400, "id": 53}
+{"index": {"_type": "tweet", "_id": "54"}}
+{"emotion": "excited", "sentiment": 2, "parent": 34, "text": "phone cuenta playboy reason call business facebook deletefacebook text cambridgeanalytica privacy deletefacebook http ", "location": "dummy", "time": 1522175400, "id": 54}
+{"index": {"_type": "tweet", "_id": "55"}}
+{"emotion": "happy", "sentiment": 0, "parent": 36, "text": "personal information user news deletefacebook backlash time delete facebook privacy tool business model channel4new data http playboy ", "location": "dummy", "time": 1522175400, "id": 55}
+{"index": {"_type": "tweet", "_id": "56"}}
+{"emotion": "sad", "sentiment": 2, "parent": 19, "text": "crisis impeach trump opinion austin overcast portland mailonline newsfeed failure threat youtube west information ", "location": "dummy", "time": 1522175400, "id": 56}
+{"index": {"_type": "tweet", "_id": "57"}}
+{"emotion": "excited", "sentiment": 2, "parent": 35, "text": "user fact setting clutch deletefacebook backlash internet condition term article googlegestapo deletefacebook concealment ", "location": "dummy", "time": 1522175400, "id": 57}
+{"index": {"_type": "tweet", "_id": "58"}}
+{"emotion": "angry", "sentiment": 0, "parent": 20, "text": "instagram whatsapp people socialmedia person playboy i ll video twitter elonmusk forbes ", "location": "dummy", "time": 1522175400, "id": 58}
+{"index": {"_type": "tweet", "_id": "59"}}
+{"emotion": "excited", "sentiment": 1, "parent": 21, "text": "world question face sunglasses emoji end time deletefacebook emoji mark audit elonmusk ", "location": "dummy", "time": 1522175400, "id": 59}
+{"index": {"_type": "tweet", "_id": "60"}}
+{"emotion": "fear", "sentiment": 2, "parent": 22, "text": "emoji face twitter open mouth eye deletefacebook emoji tightly-closed eye backhand index deletefacebook http people tear ", "location": "dummy", "time": 1522175400, "id": 60}
+{"index": {"_type": "tweet", "_id": "61"}}
+{"emotion": "excited", "sentiment": -2, "parent": 23, "text": "lot hand people access middle finger privacy human school app talk democracy ", "location": "dummy", "time": 1522175400, "id": 61}
+{"index": {"_type": "tweet", "_id": "62"}}
+{"emotion": "angry", "sentiment": 0, "parent": 51, "text": "facebook account deletefacebook emoji tesla spacex elonmusk elon musk brilliant reporting democracy time no pressure app ", "location": "dummy", "time": 1521829800, "id": 62}
+{"index": {"_type": "tweet", "_id": "63"}}
+{"emotion": "happy", "sentiment": -1, "parent": 50, "text": "privacy online online http million user hand political consultancy frankfurt reuter google people social network ", "location": "dummy", "time": 1521829800, "id": 63}
+{"index": {"_type": "tweet", "_id": "64"}}
+{"emotion": "excited", "sentiment": 2, "parent": 52, "text": "barrage tweet thumb nellie bowle sign mark zuckerberg nyt http tweets http emoji sign emoji nyt ", "location": "dummy", "time": 1521829800, "id": 64}
+{"index": {"_type": "tweet", "_id": "65"}}
+{"emotion": "angry", "sentiment": -2, "parent": 44, "text": "deletefacebook campaign http reuter protect online hard meridian waste help people privacy good idea ", "location": "dummy", "time": 1521829800, "id": 65}
+{"index": {"_type": "tweet", "_id": "66"}}
+{"emotion": "sad", "sentiment": -1, "parent": 46, "text": "part problem use tech tech titan clash time people account deletefacebook privacy elon musk ", "location": "dummy", "time": 1521829800, "id": 66}
+{"index": {"_type": "tweet", "_id": "67"}}
+{"emotion": "happy", "sentiment": 0, "parent": 45, "text": "latest expert deletefacebook fervor time deletefacebook marchforourlive michaelvonirvin commondream daily deletefacebook http wordpressdotcom statement ", "location": "dummy", "time": 1521829800, "id": 67}
+{"index": {"_type": "tweet", "_id": "68"}}
+{"emotion": "angry", "sentiment": -2, "parent": 48, "text": "elon musk tesla spacex page time deletefacebook effort platform julian assange chorus skeptical user people movement ", "location": "dummy", "time": 1521829800, "id": 68}
+{"index": {"_type": "tweet", "_id": "69"}}
+{"emotion": "fear", "sentiment": 2, "parent": 47, "text": "tear emoji joy joy emoji face rolling floor deletefacebook emoji ploy backfire deletenamoapp deletefacebook wave ", "location": "dummy", "time": 1521829800, "id": 69}
+{"index": {"_type": "tweet", "_id": "70"}}
+{"emotion": "fear", "sentiment": 2, "parent": 49, "text": "spacex elon musk tesla deletefacebook movement facebook page deletefacebook http elonmusk deletefacebook boycott data safe internetbillofright musk ", "location": "dummy", "time": 1521829800, "id": 70}
+{"index": {"_type": "tweet", "_id": "71"}}
+{"emotion": "excited", "sentiment": 0, "parent": 71, "text": "bot porn account hashtag link luxendary 3aluxendary 20inc deletefacebook mazon cryptocurrency hustler 3aap confirmation email retweet ", "location": "dummy", "time": 1521829800, "id": 71}
+{"index": {"_type": "tweet", "_id": "72"}}
+{"emotion": "excited", "sentiment": 0, "parent": 41, "text": "apple exposure advertising deletefacebook people privacy i ve online deletefacebook bandwagon tool facebook deletefacebook kid ", "location": "dummy", "time": 1521829800, "id": 72}
+{"index": {"_type": "tweet", "_id": "73"}}
+{"emotion": "sad", "sentiment": 1, "parent": 40, "text": "account cambridge analytica assange technology megalomaniac http good people megalomaniac year life good http ", "location": "dummy", "time": 1521829800, "id": 73}
+{"index": {"_type": "tweet", "_id": "74"}}
+{"emotion": "angry", "sentiment": 1, "parent": 43, "text": "thought post spacex page social internet tesla privacy elon musk step elonmusk control ", "location": "dummy", "time": 1521829800, "id": 74}
+{"index": {"_type": "tweet", "_id": "75"}}
+{"emotion": "fear", "sentiment": -2, "parent": 61, "text": "lot hand people corporation middle finger deletefacebook bandwagon emoji tesla person democracy time ", "location": "dummy", "time": 1521829800, "id": 75}
+{"index": {"_type": "tweet", "_id": "76"}}
+{"emotion": "happy", "sentiment": -2, "parent": 42, "text": "zuckerberg response tesla elon musk plataforma abandonar toda persona time elonmusk good http people ", "location": "dummy", "time": 1521829800, "id": 76}
+{"index": {"_type": "tweet", "_id": "77"}}
+{"emotion": "sad", "sentiment": -2, "parent": 55, "text": "personal information news deleted facebook deletetwitter people user evil privacy instagram year elon musk ", "location": "dummy", "time": 1521829800, "id": 77}
+{"index": {"_type": "tweet", "_id": "78"}}
+{"emotion": "excited", "sentiment": -1, "parent": 56, "text": "information fb account future advertiser youtube people qanon opinion julianassange twitter account ", "location": "dummy", "time": 1521829800, "id": 78}
+{"index": {"_type": "tweet", "_id": "79"}}
+{"emotion": "sad", "sentiment": -1, "parent": 53, "text": "mind permission top story app facebook app spacex tweet barrage hacker news morning www zerohedge ", "location": "dummy", "time": 1521829800, "id": 79}
+{"index": {"_type": "tweet", "_id": "80"}}
+{"emotion": "fear", "sentiment": -1, "parent": 54, "text": "phone call year reason business android phone app time people emoji info ", "location": "dummy", "time": 1521829800, "id": 80}
+{"index": {"_type": "tweet", "_id": "81"}}
+{"emotion": "sad", "sentiment": 0, "parent": 37, "text": "friend family contact people time touch button text user minute emoji ", "location": "dummy", "time": 1521829800, "id": 81}
+{"index": {"_type": "tweet", "_id": "82"}}
+{"emotion": "sad", "sentiment": -1, "parent": 59, "text": "world people face end sunglasses worst month account tesla cambridgeanalytica beginning ", "location": "dummy", "time": 1521829800, "id": 82}
+{"index": {"_type": "tweet", "_id": "83"}}
+{"emotion": "sad", "sentiment": -2, "parent": 60, "text": "emoji face eye deletefacebook emoji twitter open mouth stuck-out tongue fear time people tightly-closed eye ", "location": "dummy", "time": 1521829800, "id": 83}
+{"index": {"_type": "tweet", "_id": "84"}}
+{"emotion": "angry", "sentiment": 1, "parent": 39, "text": "company brian acton 19 billion human sale privacy people product time facebook user word ", "location": "dummy", "time": 1521829800, "id": 84}
+{"index": {"_type": "tweet", "_id": "85"}}
+{"emotion": "fear", "sentiment": 0, "parent": 57, "text": "internet fact people deletefacebook http privacy trump activistpost article elon musk time boycott ", "location": "dummy", "time": 1521829800, "id": 85}
+{"index": {"_type": "tweet", "_id": "86"}}
+{"emotion": "happy", "sentiment": -2, "parent": 38, "text": "day grand illusion elonmusk user technology people twitter account i ve friend elon musk ", "location": "dummy", "time": 1521829800, "id": 86}
+{"index": {"_type": "tweet", "_id": "87"}}
+{"emotion": "excited", "sentiment": 0, "parent": 58, "text": "instagram whatsapp socialmedia people twitter elon musk time person idea spacex tesla ", "location": "dummy", "time": 1521829800, "id": 87}
+{"index": {"_type": "tweet", "_id": "88"}}
+{"emotion": "sad", "sentiment": 1, "parent": 87, "text": "instagram whatsapp socialmedia face twitter course emoji people account por app ", "location": "dummy", "time": 1522002600, "id": 88}
+{"index": {"_type": "tweet", "_id": "89"}}
+{"emotion": "sad", "sentiment": 0, "parent": 80, "text": "call phone year reason text message android phone app people text time business ", "location": "dummy", "time": 1522002600, "id": 89}
+{"index": {"_type": "tweet", "_id": "90"}}
+{"emotion": "happy", "sentiment": -2, "parent": 71, "text": "photo app deletefacebook highlight blockchain hashtag site download twitter access link file ", "location": "dummy", "time": 1522002600, "id": 90}
+{"index": {"_type": "tweet", "_id": "91"}}
+{"emotion": "sad", "sentiment": 2, "parent": 82, "text": "world end face sunglasses emoji facebook account people opinion voice i ve week ", "location": "dummy", "time": 1522002600, "id": 91}
+{"index": {"_type": "tweet", "_id": "92"}}
+{"emotion": "fear", "sentiment": 2, "parent": 92, "text": "facebook vuelve en medio noticia alternative deleteuber joshconstine download regulation lyft chart trust ", "location": "dummy", "time": 1522002600, "id": 92}
+{"index": {"_type": "tweet", "_id": "93"}}
+{"emotion": "excited", "sentiment": 1, "parent": 81, "text": "friend user nbcnews facebook furor http people detail nbcnew family info contact account ", "location": "dummy", "time": 1522002600, "id": 93}
+{"index": {"_type": "tweet", "_id": "94"}}
+{"emotion": "sad", "sentiment": -1, "parent": 84, "text": "company user elon musk deletefacebook campaign profile deletefacebook http time brian acton slate information zuckerberg ", "location": "dummy", "time": 1522002600, "id": 94}
+{"index": {"_type": "tweet", "_id": "95"}}
+{"emotion": "excited", "sentiment": 2, "parent": 83, "text": "emoji face twitter thread deletefacebook emoji eye open mouth respect complaint wide- fear ", "location": "dummy", "time": 1522002600, "id": 95}
+{"index": {"_type": "tweet", "_id": "96"}}
+{"emotion": "fear", "sentiment": -2, "parent": 86, "text": "day people facebook account facebook profile emoji page alignment texting today million call log ", "location": "dummy", "time": 1522002600, "id": 96}
+{"index": {"_type": "tweet", "_id": "97"}}
+{"emotion": "angry", "sentiment": 1, "parent": 85, "text": "internet googlegestapo deletefacebook activistpost deletefacebook http phibiblog html people trump life fact dailycaller ", "location": "dummy", "time": 1522002600, "id": 97}
+{"index": {"_type": "tweet", "_id": "98"}}
+{"emotion": "happy", "sentiment": -2, "parent": 65, "text": "emoji meridian comet wonderlan emoji tomorrowlan emoji butterfly iot iop emoji child america hell internetbillofright ", "location": "dummy", "time": 1522002600, "id": 98}
+{"index": {"_type": "tweet", "_id": "99"}}
+{"emotion": "happy", "sentiment": 1, "parent": 66, "text": "problem part people use time deletefacebook movement user account view term deletefacebook http ", "location": "dummy", "time": 1522002600, "id": 99}
+{"index": {"_type": "tweet", "_id": "100"}}
+{"emotion": "fear", "sentiment": 0, "parent": 63, "text": "privacy user online http million hard protect online people google reuter online deletefacebook http ", "location": "dummy", "time": 1522002600, "id": 100}
+{"index": {"_type": "tweet", "_id": "101"}}
+{"emotion": "excited", "sentiment": 1, "parent": 64, "text": "thumb mark zuckerberg sign barrage tweet emoji tweets http user sign emoji furor face ", "location": "dummy", "time": 1522002600, "id": 101}
+{"index": {"_type": "tweet", "_id": "102"}}
+{"emotion": "excited", "sentiment": 2, "parent": 69, "text": "tear emoji joy emoji joy rolling floor face deletefacebook emoji time people joy http ", "location": "dummy", "time": 1522002600, "id": 102}
+{"index": {"_type": "tweet", "_id": "103"}}
+{"emotion": "happy", "sentiment": 0, "parent": 70, "text": "deletefacebook movement strong reminder deletefacebook http elon musk spacex tesla internetbillofright facebook page free service elonmusk free http ", "location": "dummy", "time": 1522002600, "id": 103}
+{"index": {"_type": "tweet", "_id": "104"}}
+{"emotion": "happy", "sentiment": -1, "parent": 67, "text": "latest daily http deletefacebook http expert deletefacebook marchforourlive wordpressdotcom internet facebook http don t harmful effect fear ", "location": "dummy", "time": 1522002600, "id": 104}
+{"index": {"_type": "tweet", "_id": "105"}}
+{"emotion": "happy", "sentiment": -2, "parent": 68, "text": "time people platform elon musk tesla deletefacebook crusade user deletefacebook http poll spacex page adage ", "location": "dummy", "time": 1522002600, "id": 105}
+{"index": {"_type": "tweet", "_id": "106"}}
+{"emotion": "fear", "sentiment": -1, "parent": 77, "text": "news facebook stock ftc probe user decision research tempted deletefacebook deleteyourfacebookaccount today people stock ", "location": "dummy", "time": 1522002600, "id": 106}
+{"index": {"_type": "tweet", "_id": "107"}}
+{"emotion": "excited", "sentiment": 1, "parent": 76, "text": "zuckerberg user fix facebook time response people deletefacebook http markzuckerberg privacy blunder netizen adguard ", "location": "dummy", "time": 1522002600, "id": 107}
+{"index": {"_type": "tweet", "_id": "108"}}
+{"emotion": "happy", "sentiment": -2, "parent": 79, "text": "mind permission book android cambridge analytica top story 2fulk 2fitm book emoji app facebook app instagram ", "location": "dummy", "time": 1522002600, "id": 108}
+{"index": {"_type": "tweet", "_id": "109"}}
+{"emotion": "sad", "sentiment": 0, "parent": 78, "text": "information advertiser youtube 10 day 100 billion people share future life opinion deletefacebook http ", "location": "dummy", "time": 1522002600, "id": 109}
+{"index": {"_type": "tweet", "_id": "110"}}
+{"emotion": "happy", "sentiment": 0, "parent": 62, "text": "facebook account elon musk deletefacebook trend deletefacebook http worldwide privacy thinking face time elonmusk face jmacofearth ", "location": "dummy", "time": 1522002600, "id": 110}
+{"index": {"_type": "tweet", "_id": "111"}}
+{"emotion": "happy", "sentiment": 1, "parent": 111, "text": "ftc ice immigrant investigation russia android device call history internal email solution reason customer ", "location": "dummy", "time": 1522002600, "id": 111}
+{"index": {"_type": "tweet", "_id": "112"}}
+{"emotion": "excited", "sentiment": -2, "parent": 112, "text": "service people function shit video kind steemit apology profit regulation deletefacebook http ", "location": "dummy", "time": 1522002600, "id": 112}
+{"index": {"_type": "tweet", "_id": "113"}}
+{"emotion": "happy", "sentiment": 1, "parent": 73, "text": "account user call sms text cambridge analytica people time accounts http emoji deletefacebook facebook twitter ", "location": "dummy", "time": 1522002600, "id": 113}
+{"index": {"_type": "tweet", "_id": "114"}}
+{"emotion": "fear", "sentiment": -1, "parent": 72, "text": "apple i ve call number text message deletefacebook movement facebook admit social network andrew garfield user iphone ", "location": "dummy", "time": 1522002600, "id": 114}
+{"index": {"_type": "tweet", "_id": "115"}}
+{"emotion": "sad", "sentiment": -2, "parent": 75, "text": "lot hand democracy people emoji middle finger pile poo emoji deletefacebook http face regulation ", "location": "dummy", "time": 1522002600, "id": 115}
+{"index": {"_type": "tweet", "_id": "116"}}
+{"emotion": "excited", "sentiment": 2, "parent": 74, "text": "thought post social internet social network andrew garfield socialmedia deletefacebook movement hack page cal newport rolling eye ", "location": "dummy", "time": 1522002600, "id": 116}
+{"index": {"_type": "tweet", "_id": "117"}}
+{"emotion": "fear", "sentiment": 0, "parent": 89, "text": "call people year business phone user social network facebook share app text facebook facebook ", "location": "dummy", "time": 1522261800, "id": 117}
+{"index": {"_type": "tweet", "_id": "118"}}
+{"emotion": "angry", "sentiment": 0, "parent": 118, "text": "thumbs-down south african facebook dataprivacy treating user discover data misuse deletefacebook era man deletefacebook crowd settings http deletefacebook http ", "location": "dummy", "time": 1522261800, "id": 118}
+{"index": {"_type": "tweet", "_id": "119"}}
+{"emotion": "happy", "sentiment": 2, "parent": 88, "text": "instagram whatsapp reason twitter long time farewell deletefacebook http number google purge por ", "location": "dummy", "time": 1522261800, "id": 119}
+{"index": {"_type": "tweet", "_id": "120"}}
+{"emotion": "excited", "sentiment": 2, "parent": 106, "text": "news deletefacebooknow cooperation information truth trump cambridgeanalytics deletefacebook algorithm action site deletefacebook http ", "location": "dummy", "time": 1522261800, "id": 120}
+{"index": {"_type": "tweet", "_id": "121"}}
+{"emotion": "angry", "sentiment": 0, "parent": 102, "text": "joy tear emoji relief despair agony joy emoji face rolling friend trust ", "location": "dummy", "time": 1522261800, "id": 121}
+{"index": {"_type": "tweet", "_id": "122"}}
+{"emotion": "happy", "sentiment": 0, "parent": 103, "text": "internetbillofright deletefacebook http deletefacebook movement people ferrell spacex playboy info tesla wake facebook page ", "location": "dummy", "time": 1522261800, "id": 122}
+{"index": {"_type": "tweet", "_id": "123"}}
+{"emotion": "excited", "sentiment": -2, "parent": 100, "text": "privacy hard deletefacebook http google sense face kind child social network scientific american advertising ", "location": "dummy", "time": 1522261800, "id": 123}
+{"index": {"_type": "tweet", "_id": "124"}}
+{"emotion": "excited", "sentiment": 0, "parent": 101, "text": "thumb mark zuckerberg sign emoji face emoji scandal congress privacy setting deletefacebook emoji eye tweet ", "location": "dummy", "time": 1522261800, "id": 124}
+{"index": {"_type": "tweet", "_id": "125"}}
+{"emotion": "fear", "sentiment": -2, "parent": 125, "text": "cuenta famoso la lista sta playboy www 20minuto deletefacebook party snap mashable free nude follow ", "location": "dummy", "time": 1522261800, "id": 125}
+{"index": {"_type": "tweet", "_id": "126"}}
+{"emotion": "fear", "sentiment": 0, "parent": 126, "text": "descargar toda pero car donner deletetwitter cambridgeanalytics deletefacebook donn es deletefacebook http control place socialmedia democracy ", "location": "dummy", "time": 1522261800, "id": 126}
+{"index": {"_type": "tweet", "_id": "127"}}
+{"emotion": "excited", "sentiment": 1, "parent": 104, "text": "latest expert daily answer communication facebook http message yahoonew problem facebook user interesting ", "location": "dummy", "time": 1522261800, "id": 127}
+{"index": {"_type": "tweet", "_id": "128"}}
+{"emotion": "angry", "sentiment": 1, "parent": 105, "text": "people time tesla platform elon musk spacex page deletefacebook http emoji deletefacebook campaign deletefacebook trend job ", "location": "dummy", "time": 1522261800, "id": 128}
+{"index": {"_type": "tweet", "_id": "129"}}
+{"emotion": "sad", "sentiment": 2, "parent": 107, "text": "privacy setting response zuckerberg data broker deletefacebook backlash deletefacebook saga user stock price information deletefacebook http people ", "location": "dummy", "time": 1522261800, "id": 129}
+{"index": {"_type": "tweet", "_id": "130"}}
+{"emotion": "angry", "sentiment": 2, "parent": 99, "text": "part surprise s designed nightmare http googlegestapo deletefacebook problem tool point activistpost money internet ", "location": "dummy", "time": 1522261800, "id": 130}
+{"index": {"_type": "tweet", "_id": "131"}}
+{"emotion": "excited", "sentiment": 0, "parent": 97, "text": "deletefacebook http fact internet life phibiblog trump sense eye deletefacebook backlash thought activistpost ", "location": "dummy", "time": 1522261800, "id": 131}
+{"index": {"_type": "tweet", "_id": "132"}}
+{"emotion": "happy", "sentiment": 2, "parent": 116, "text": "post comment deleting facebook page reaction work information info wsj photo rolling eye ", "location": "dummy", "time": 1522261800, "id": 132}
+{"index": {"_type": "tweet", "_id": "133"}}
+{"emotion": "fear", "sentiment": 1, "parent": 98, "text": "emoji meridian data show iop emoji http comet tomorrowlan emoji mindazetlin butterfly iot wonderlan emoji privacy ", "location": "dummy", "time": 1522261800, "id": 133}
+{"index": {"_type": "tweet", "_id": "134"}}
+{"emotion": "excited", "sentiment": 1, "parent": 90, "text": "google data facebook people app deactivatefacebook download snapchat today site website life ", "location": "dummy", "time": 1522261800, "id": 134}
+{"index": {"_type": "tweet", "_id": "135"}}
+{"emotion": "sad", "sentiment": 1, "parent": 110, "text": "facebook account playboy full deletefacebook http picture social network hand whatsapp company deletefacebook facebook work ", "location": "dummy", "time": 1522261800, "id": 135}
+{"index": {"_type": "tweet", "_id": "136"}}
+{"emotion": "angry", "sentiment": 1, "parent": 111, "text": "product tps micropayment tippereconomy block-chain technology solution customer money tool propaganda truth consumer ", "location": "dummy", "time": 1522261800, "id": 136}
+{"index": {"_type": "tweet", "_id": "137"}}
+{"emotion": "happy", "sentiment": 2, "parent": 92, "text": "deletefacebook http social markzuckerberg green kind deletefacebook facebook volume video playboy user week ", "location": "dummy", "time": 1522261800, "id": 137}
+{"index": {"_type": "tweet", "_id": "138"}}
+{"emotion": "sad", "sentiment": 2, "parent": 108, "text": "mind blockchain-based alternative icymi privacy consumer bbc news cambridge analytica backlash download wake tippereconomy ", "location": "dummy", "time": 1522261800, "id": 138}
+{"index": {"_type": "tweet", "_id": "139"}}
+{"emotion": "fear", "sentiment": 2, "parent": 91, "text": "world end trend app markzuckerberg message hand month deletefacebook boycottfacebook place deletefacebook http ", "location": "dummy", "time": 1522261800, "id": 139}
+{"index": {"_type": "tweet", "_id": "140"}}
+{"emotion": "sad", "sentiment": 1, "parent": 109, "text": "information advertiser user youtube place wake backlash fake news deletefacebook http window interesting ", "location": "dummy", "time": 1522261800, "id": 140}
+{"index": {"_type": "tweet", "_id": "141"}}
+{"emotion": "happy", "sentiment": -2, "parent": 95, "text": "face emoji deletefacebook emoji twitter sunglasses eye periscope heart-shaped eye backhand index people gol http ", "location": "dummy", "time": 1522261800, "id": 141}
+{"index": {"_type": "tweet", "_id": "142"}}
+{"emotion": "excited", "sentiment": 1, "parent": 114, "text": "apple deletefacebook http notice fastcompany wsj rolling app fb account info lawsuit i ve ", "location": "dummy", "time": 1522261800, "id": 142}
+{"index": {"_type": "tweet", "_id": "143"}}
+{"emotion": "excited", "sentiment": -1, "parent": 93, "text": "surprise s designed nightmare http nightmare friend public fastcompany window mark zuckerberg deletefacebook movement week ", "location": "dummy", "time": 1522261800, "id": 143}
+{"index": {"_type": "tweet", "_id": "144"}}
+{"emotion": "angry", "sentiment": 0, "parent": 96, "text": "day emoji phone markzuckerberg project twitter youtube deletefacebook crowd elon musk scandal video ", "location": "dummy", "time": 1522261800, "id": 144}
+{"index": {"_type": "tweet", "_id": "145"}}
+{"emotion": "sad", "sentiment": 0, "parent": 115, "text": "lot democracy hand people power middle finger tool follower picture touch today ", "location": "dummy", "time": 1522261800, "id": 145}
+{"index": {"_type": "tweet", "_id": "146"}}
+{"emotion": "excited", "sentiment": 0, "parent": 112, "text": "setting thenextweb point zuck user security society delete facebook shit deletefacebook http backhand index ", "location": "dummy", "time": 1522261800, "id": 146}
+{"index": {"_type": "tweet", "_id": "147"}}
+{"emotion": "happy", "sentiment": -2, "parent": 94, "text": "company deletefacebook movement slate ferrell spread 80 billion cher money couple propaganda user ", "location": "dummy", "time": 1522261800, "id": 147}
+{"index": {"_type": "tweet", "_id": "148"}}
+{"emotion": "excited", "sentiment": 0, "parent": 113, "text": "account user cambridge analytica cambridgeanalytica people phone call sms text politician fact deletefacebook campaign poison obfuscate ", "location": "dummy", "time": 1522261800, "id": 148}
+{"index": {"_type": "tweet", "_id": "149"}}
+{"emotion": "angry", "sentiment": 2, "parent": 127, "text": "facebook user communication message facebook http latest dumb f--k privacy button marchforourlive russia people ", "location": "dummy", "time": 1521916200, "id": 149}
+{"index": {"_type": "tweet", "_id": "150"}}
+{"emotion": "happy", "sentiment": 0, "parent": 121, "text": "tear emoji joy joy emoji face joy deletefacebook rolling joy http floor instagram eye ", "location": "dummy", "time": 1521916200, "id": 150}
+{"index": {"_type": "tweet", "_id": "151"}}
+{"emotion": "sad", "sentiment": -1, "parent": 143, "text": "friend people public mark family time year dumb fuck touch deletefacebook http account ", "location": "dummy", "time": 1521916200, "id": 151}
+{"index": {"_type": "tweet", "_id": "152"}}
+{"emotion": "angry", "sentiment": 0, "parent": 120, "text": "news deletefacebooknow truth nod facebook deletefacebook yahoonew fool evidence harvard people emoji ", "location": "dummy", "time": 1521916200, "id": 152}
+{"index": {"_type": "tweet", "_id": "153"}}
+{"emotion": "angry", "sentiment": 1, "parent": 144, "text": "day time privacy untrustworthy grand illusion antimedia twitter user life garbage account ", "location": "dummy", "time": 1521916200, "id": 153}
+{"index": {"_type": "tweet", "_id": "154"}}
+{"emotion": "sad", "sentiment": -1, "parent": 119, "text": "instagram whatsapp reason deletefacebook campaign people time change twitter account socialmedia long time ", "location": "dummy", "time": 1521916200, "id": 154}
+{"index": {"_type": "tweet", "_id": "155"}}
+{"emotion": "happy", "sentiment": 1, "parent": 145, "text": "lot hand emoji middle finger people privacy user social network million political consultancy elonmusk ", "location": "dummy", "time": 1521916200, "id": 155}
+{"index": {"_type": "tweet", "_id": "156"}}
+{"emotion": "fear", "sentiment": 1, "parent": 118, "text": "people no trust attention age ppl data misuse face gdpr firm sale bigdata benefit year ", "location": "dummy", "time": 1521916200, "id": 156}
+{"index": {"_type": "tweet", "_id": "157"}}
+{"emotion": "sad", "sentiment": -2, "parent": 126, "text": "deletefacebook http control time respect case people decision deactivate business model data safe elon musk ", "location": "dummy", "time": 1521916200, "id": 157}
+{"index": {"_type": "tweet", "_id": "158"}}
+{"emotion": "angry", "sentiment": -2, "parent": 139, "text": "world end internetbillofright antimedia deletefacebook movement year degree time people unbreachable rest ", "location": "dummy", "time": 1521916200, "id": 158}
+{"index": {"_type": "tweet", "_id": "159"}}
+{"emotion": "excited", "sentiment": 2, "parent": 124, "text": "mark zuckerberg sign thumb tweet barrage emoji deletefacebook emoji user nellie bowle horn deletefacebook http ", "location": "dummy", "time": 1521916200, "id": 159}
+{"index": {"_type": "tweet", "_id": "160"}}
+{"emotion": "angry", "sentiment": 0, "parent": 140, "text": "youtube advertiser article fake news deletefacebook http people face fire emoji fire hushed face emoji ", "location": "dummy", "time": 1521916200, "id": 160}
+{"index": {"_type": "tweet", "_id": "161"}}
+{"emotion": "happy", "sentiment": -1, "parent": 123, "text": "privacy google online social network user online http people frankfurt reuter political consultancy million hand ", "location": "dummy", "time": 1521916200, "id": 161}
+{"index": {"_type": "tweet", "_id": "162"}}
+{"emotion": "angry", "sentiment": -2, "parent": 141, "text": "face emoji eye deletefacebook emoji open mouth sunglasses people twitter monocle rolling eye fear ", "location": "dummy", "time": 1521916200, "id": 162}
+{"index": {"_type": "tweet", "_id": "163"}}
+{"emotion": "happy", "sentiment": 1, "parent": 122, "text": "spacex elon musk tesla deletefacebook movement facebook page elonmusk deletefacebook http response delete facebook deletefacebook boycott twitter ", "location": "dummy", "time": 1521916200, "id": 163}
+{"index": {"_type": "tweet", "_id": "164"}}
+{"emotion": "sad", "sentiment": 2, "parent": 142, "text": "apple lawsuit verge massive fraud call history android device cook county fb account text app call ", "location": "dummy", "time": 1521916200, "id": 164}
+{"index": {"_type": "tweet", "_id": "165"}}
+{"emotion": "angry", "sentiment": -2, "parent": 146, "text": "shit backhand index money people year zuck answer security info listen emoji reason ", "location": "dummy", "time": 1521916200, "id": 165}
+{"index": {"_type": "tweet", "_id": "166"}}
+{"emotion": "excited", "sentiment": 1, "parent": 147, "text": "company brian acton 19 billion service function people deletefacebook http time app step-by-step instruction account ", "location": "dummy", "time": 1521916200, "id": 166}
+{"index": {"_type": "tweet", "_id": "167"}}
+{"emotion": "excited", "sentiment": 1, "parent": 148, "text": "user cambridge analytica account cambridgeanalytica year phone call people advantage text message storing log https mashable ", "location": "dummy", "time": 1521916200, "id": 167}
+{"index": {"_type": "tweet", "_id": "168"}}
+{"emotion": "sad", "sentiment": -2, "parent": 129, "text": "zuckerberg information course billion power first place fake connection human connection app real reason deletefacebook http ", "location": "dummy", "time": 1521916200, "id": 168}
+{"index": {"_type": "tweet", "_id": "169"}}
+{"emotion": "fear", "sentiment": -2, "parent": 128, "text": "elon musk tesla platform people touch time spacex page deletefacebook effort adage deletefacebook movement deletefacebook crusade ", "location": "dummy", "time": 1521916200, "id": 169}
+{"index": {"_type": "tweet", "_id": "170"}}
+{"emotion": "fear", "sentiment": 0, "parent": 130, "text": "part problem account deletefacebook movement information people info http time step don t info ", "location": "dummy", "time": 1521916200, "id": 170}
+{"index": {"_type": "tweet", "_id": "171"}}
+{"emotion": "sad", "sentiment": 2, "parent": 171, "text": "call history android device steemit www theverge joinsteemit assange steemit http steemit update minimum tip verge ", "location": "dummy", "time": 1521916200, "id": 171}
+{"index": {"_type": "tweet", "_id": "172"}}
+{"emotion": "angry", "sentiment": 1, "parent": 172, "text": "technology auspol good barrage bot tweets http le vertige j ai onze an envoy es dans le ", "location": "dummy", "time": 1521916200, "id": 172}
+{"index": {"_type": "tweet", "_id": "173"}}
+{"emotion": "happy", "sentiment": 2, "parent": 173, "text": "auspol deletefacebook blockchain mdavidcartoon otiose94 deletefacebook highlight deletenamoapp deletefacebook wave android roweafr ploy backfire downloads surge ", "location": "dummy", "time": 1521916200, "id": 173}
+{"index": {"_type": "tweet", "_id": "174"}}
+{"emotion": "happy", "sentiment": -2, "parent": 134, "text": "app site today messenger account year apology download people leaving facebook ground ", "location": "dummy", "time": 1521916200, "id": 174}
+{"index": {"_type": "tweet", "_id": "175"}}
+{"emotion": "angry", "sentiment": -1, "parent": 133, "text": "emoji http support wide- complaint respect america thread hell enabling corruption financial corruption ", "location": "dummy", "time": 1521916200, "id": 175}
+{"index": {"_type": "tweet", "_id": "176"}}
+{"emotion": "fear", "sentiment": -1, "parent": 132, "text": "post thought social internet comment hack photo account friend year article link ", "location": "dummy", "time": 1521916200, "id": 176}
+{"index": {"_type": "tweet", "_id": "177"}}
+{"emotion": "fear", "sentiment": 0, "parent": 131, "text": "life week internet fact people month phibiblog googlegestapo deletefacebook feed privacy user ", "location": "dummy", "time": 1521916200, "id": 177}
+{"index": {"_type": "tweet", "_id": "178"}}
+{"emotion": "angry", "sentiment": 1, "parent": 135, "text": "facebook account information account photo 14 day zuckerberg emoji access i ve time year ", "location": "dummy", "time": 1521916200, "id": 178}
+{"index": {"_type": "tweet", "_id": "179"}}
+{"emotion": "fear", "sentiment": 1, "parent": 136, "text": "product consumer tired privacy solution people user advertiser customer action deletefacebook http ", "location": "dummy", "time": 1521916200, "id": 179}
+{"index": {"_type": "tweet", "_id": "180"}}
+{"emotion": "excited", "sentiment": -1, "parent": 137, "text": "trust deletefacebook facebook firm poll breach download markzuckerberg time kind automatic email privacy ", "location": "dummy", "time": 1521916200, "id": 180}
+{"index": {"_type": "tweet", "_id": "181"}}
+{"emotion": "happy", "sentiment": -1, "parent": 117, "text": "call text year phone user android phone accounts http account business deletefacebook facebook app ", "location": "dummy", "time": 1521916200, "id": 181}
